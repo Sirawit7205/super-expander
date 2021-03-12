@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AW9523B
+D 16-bit IO Expander
+$ENDCMP
+#
+$CMP AW9523B_original
+D 16-bit IO Expander
+$ENDCMP
+#
+#End Doc Library

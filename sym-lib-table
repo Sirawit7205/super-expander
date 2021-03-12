@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name super_expander)(type Legacy)(uri ${KIPRJMOD}/super_expander.lib)(options "")(descr ""))
+)

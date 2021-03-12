@@ -1,0 +1,6434 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L super_expander:AW9523B U?
+U 1 1 614691A3
+P 4750 3400
+AR Path="/614691A3" Ref="U?"  Part="1" 
+AR Path="/6133367E/614691A3" Ref="U1"  Part="1" 
+F 0 "U1" H 4750 4631 50  0000 C CNN
+F 1 "AW9523B" H 4750 4540 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias" H 4950 4300 100 0001 C CNN
+F 3 "" H 4950 4300 100 0001 C CNN
+	1    4750 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 614691A9
+P 6200 3850
+AR Path="/614691A9" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/614691A9" Ref="LEDP5"  Part="1" 
+F 0 "LEDP5" H 6200 3400 50  0000 C CNN
+F 1 "LEDPACK" H 6200 3300 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 6200 4250 50  0001 C CNN
+F 3 "" H 6200 4250 50  0001 C CNN
+	1    6200 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 614691AF
+P 5750 3050
+AR Path="/614691AF" Ref="J?"  Part="1" 
+AR Path="/6133367E/614691AF" Ref="J1"  Part="1" 
+F 0 "J1" H 5600 2400 50  0000 L CNN
+F 1 "PA" H 5600 2500 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 5750 3050 50  0001 C CNN
+F 3 "~" H 5750 3050 50  0001 C CNN
+	1    5750 3050
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 614691B5
+P 6850 3700
+AR Path="/614691B5" Ref="RN?"  Part="1" 
+AR Path="/6133367E/614691B5" Ref="RN14"  Part="1" 
+F 0 "RN14" V 7450 3700 50  0000 C CNN
+F 1 "1k" V 7550 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7125 3700 50  0001 C CNN
+F 3 "~" H 6850 3700 50  0001 C CNN
+	1    6850 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 614691BB
+P 6850 4100
+AR Path="/614691BB" Ref="RN?"  Part="1" 
+AR Path="/6133367E/614691BB" Ref="RN18"  Part="1" 
+F 0 "RN18" V 7250 4100 50  0000 C CNN
+F 1 "1k" V 7350 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7125 4100 50  0001 C CNN
+F 3 "~" H 6850 4100 50  0001 C CNN
+	1    6850 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 614691C1
+P 6850 2850
+AR Path="/614691C1" Ref="RN?"  Part="1" 
+AR Path="/6133367E/614691C1" Ref="RN6"  Part="1" 
+F 0 "RN6" V 6200 2850 50  0000 C CNN
+F 1 "1k" V 6300 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7125 2850 50  0001 C CNN
+F 3 "~" H 6850 2850 50  0001 C CNN
+	1    6850 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 614691C7
+P 6850 3250
+AR Path="/614691C7" Ref="RN?"  Part="1" 
+AR Path="/6133367E/614691C7" Ref="RN10"  Part="1" 
+F 0 "RN10" V 6000 3250 50  0000 C CNN
+F 1 "1k" V 6100 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7125 3250 50  0001 C CNN
+F 3 "~" H 6850 3250 50  0001 C CNN
+	1    6850 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 614691CD
+P 6200 3000
+AR Path="/614691CD" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/614691CD" Ref="LEDP1"  Part="1" 
+F 0 "LEDP1" H 6200 3600 50  0000 C CNN
+F 1 "LEDPACK" H 6200 3500 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 6200 3400 50  0001 C CNN
+F 3 "" H 6200 3400 50  0001 C CNN
+	1    6200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 614691D3
+P 5750 3800
+AR Path="/614691D3" Ref="J?"  Part="1" 
+AR Path="/6133367E/614691D3" Ref="J5"  Part="1" 
+F 0 "J5" H 5600 3300 50  0000 L CNN
+F 1 "PB" H 5600 3200 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 5750 3800 50  0001 C CNN
+F 3 "~" H 5750 3800 50  0001 C CNN
+	1    5750 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61469219
+P 7150 4300
+AR Path="/61469219" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469219" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 7150 4050 50  0001 C CNN
+F 1 "GND" H 7155 4127 50  0000 C CNN
+F 2 "" H 7150 4300 50  0001 C CNN
+F 3 "" H 7150 4300 50  0001 C CNN
+	1    7150 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6146924E
+P 4750 4550
+AR Path="/6146924E" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/6146924E" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 4750 4300 50  0001 C CNN
+F 1 "GND" H 4755 4377 50  0000 C CNN
+F 2 "" H 4750 4550 50  0001 C CNN
+F 3 "" H 4750 4550 50  0001 C CNN
+	1    4750 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61469255
+P 5150 2350
+AR Path="/61469255" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469255" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 5150 2200 50  0001 C CNN
+F 1 "+5V" H 5165 2523 50  0000 C CNN
+F 2 "" H 5150 2350 50  0001 C CNN
+F 3 "" H 5150 2350 50  0001 C CNN
+	1    5150 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 4050 2950 0    50   Input ~ 0
+~RST
+Text Label 3900 2650 0    50   ~ 0
+SCL0
+Text Label 3900 2750 0    50   ~ 0
+SDA0
+Entry Wire Line
+	3700 2550 3800 2650
+Entry Wire Line
+	3750 2650 3850 2750
+$Comp
+L power:GND #PWR?
+U 1 1 6146926A
+P 3950 3300
+AR Path="/6146926A" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/6146926A" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 3950 3050 50  0001 C CNN
+F 1 "GND" H 3955 3127 50  0000 C CNN
+F 2 "" H 3950 3300 50  0001 C CNN
+F 3 "" H 3950 3300 50  0001 C CNN
+	1    3950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L super_expander:AW9523B U?
+U 1 1 61469270
+P 8550 3400
+AR Path="/61469270" Ref="U?"  Part="1" 
+AR Path="/6133367E/61469270" Ref="U2"  Part="1" 
+F 0 "U2" H 8550 4631 50  0000 C CNN
+F 1 "AW9523B" H 8550 4540 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias" H 8750 4300 100 0001 C CNN
+F 3 "" H 8750 4300 100 0001 C CNN
+	1    8550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 61469276
+P 10000 3850
+AR Path="/61469276" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/61469276" Ref="LEDP6"  Part="1" 
+F 0 "LEDP6" H 10000 3400 50  0000 C CNN
+F 1 "LEDPACK" H 10000 3300 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 10000 4250 50  0001 C CNN
+F 3 "" H 10000 4250 50  0001 C CNN
+	1    10000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 6146927C
+P 9550 3050
+AR Path="/6146927C" Ref="J?"  Part="1" 
+AR Path="/6133367E/6146927C" Ref="J2"  Part="1" 
+F 0 "J2" H 9400 2400 50  0000 L CNN
+F 1 "PC" H 9400 2500 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 9550 3050 50  0001 C CNN
+F 3 "~" H 9550 3050 50  0001 C CNN
+	1    9550 3050
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469282
+P 10650 3700
+AR Path="/61469282" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469282" Ref="RN15"  Part="1" 
+F 0 "RN15" V 11250 3700 50  0000 C CNN
+F 1 "1k" V 11350 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 10925 3700 50  0001 C CNN
+F 3 "~" H 10650 3700 50  0001 C CNN
+	1    10650 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469288
+P 10650 4100
+AR Path="/61469288" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469288" Ref="RN19"  Part="1" 
+F 0 "RN19" V 11050 4100 50  0000 C CNN
+F 1 "1k" V 11150 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 10925 4100 50  0001 C CNN
+F 3 "~" H 10650 4100 50  0001 C CNN
+	1    10650 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 6146928E
+P 10650 2850
+AR Path="/6146928E" Ref="RN?"  Part="1" 
+AR Path="/6133367E/6146928E" Ref="RN7"  Part="1" 
+F 0 "RN7" V 10000 2850 50  0000 C CNN
+F 1 "1k" V 10100 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 10925 2850 50  0001 C CNN
+F 3 "~" H 10650 2850 50  0001 C CNN
+	1    10650 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469294
+P 10650 3250
+AR Path="/61469294" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469294" Ref="RN11"  Part="1" 
+F 0 "RN11" V 9800 3250 50  0000 C CNN
+F 1 "1k" V 9900 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 10925 3250 50  0001 C CNN
+F 3 "~" H 10650 3250 50  0001 C CNN
+	1    10650 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 6146929A
+P 10000 3000
+AR Path="/6146929A" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/6146929A" Ref="LEDP2"  Part="1" 
+F 0 "LEDP2" H 10000 3600 50  0000 C CNN
+F 1 "LEDPACK" H 10000 3500 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 10000 3400 50  0001 C CNN
+F 3 "" H 10000 3400 50  0001 C CNN
+	1    10000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 614692A0
+P 9550 3800
+AR Path="/614692A0" Ref="J?"  Part="1" 
+AR Path="/6133367E/614692A0" Ref="J6"  Part="1" 
+F 0 "J6" H 9400 3300 50  0000 L CNN
+F 1 "PD" H 9400 3200 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 9550 3800 50  0001 C CNN
+F 3 "~" H 9550 3800 50  0001 C CNN
+	1    9550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614692E1
+P 10950 4300
+AR Path="/614692E1" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/614692E1" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 10950 4050 50  0001 C CNN
+F 1 "GND" H 10955 4127 50  0000 C CNN
+F 2 "" H 10950 4300 50  0001 C CNN
+F 3 "" H 10950 4300 50  0001 C CNN
+	1    10950 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61469316
+P 8550 4550
+AR Path="/61469316" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469316" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 8550 4300 50  0001 C CNN
+F 1 "GND" H 8555 4377 50  0000 C CNN
+F 2 "" H 8550 4550 50  0001 C CNN
+F 3 "" H 8550 4550 50  0001 C CNN
+	1    8550 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6146931D
+P 8950 2350
+AR Path="/6146931D" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/6146931D" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 8950 2200 50  0001 C CNN
+F 1 "+5V" H 8965 2523 50  0000 C CNN
+F 2 "" H 8950 2350 50  0001 C CNN
+F 3 "" H 8950 2350 50  0001 C CNN
+	1    8950 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 7850 2950 0    50   Input ~ 0
+~RST
+Text Label 7700 2650 0    50   ~ 0
+SCL0
+Text Label 7700 2750 0    50   ~ 0
+SDA0
+Entry Wire Line
+	7500 2550 7600 2650
+Entry Wire Line
+	7550 2650 7650 2750
+$Comp
+L power:+5V #PWR?
+U 1 1 6146932C
+P 7750 3300
+AR Path="/6146932C" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/6146932C" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 7750 3150 50  0001 C CNN
+F 1 "+5V" H 7765 3473 50  0000 C CNN
+F 2 "" H 7750 3300 50  0001 C CNN
+F 3 "" H 7750 3300 50  0001 C CNN
+	1    7750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61469332
+P 7750 3350
+AR Path="/61469332" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469332" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 7750 3100 50  0001 C CNN
+F 1 "GND" H 7755 3177 50  0000 C CNN
+F 2 "" H 7750 3350 50  0001 C CNN
+F 3 "" H 7750 3350 50  0001 C CNN
+	1    7750 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L super_expander:AW9523B U?
+U 1 1 6146933D
+P 12350 3450
+AR Path="/6146933D" Ref="U?"  Part="1" 
+AR Path="/6133367E/6146933D" Ref="U3"  Part="1" 
+F 0 "U3" H 12350 4681 50  0000 C CNN
+F 1 "AW9523B" H 12350 4590 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias" H 12550 4350 100 0001 C CNN
+F 3 "" H 12550 4350 100 0001 C CNN
+	1    12350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 61469343
+P 13800 3900
+AR Path="/61469343" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/61469343" Ref="LEDP7"  Part="1" 
+F 0 "LEDP7" H 13800 3450 50  0000 C CNN
+F 1 "LEDPACK" H 13800 3350 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 13800 4300 50  0001 C CNN
+F 3 "" H 13800 4300 50  0001 C CNN
+	1    13800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 61469349
+P 13350 3100
+AR Path="/61469349" Ref="J?"  Part="1" 
+AR Path="/6133367E/61469349" Ref="J3"  Part="1" 
+F 0 "J3" H 13200 2450 50  0000 L CNN
+F 1 "PE" H 13200 2550 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 13350 3100 50  0001 C CNN
+F 3 "~" H 13350 3100 50  0001 C CNN
+	1    13350 3100
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 6146934F
+P 14450 3750
+AR Path="/6146934F" Ref="RN?"  Part="1" 
+AR Path="/6133367E/6146934F" Ref="RN16"  Part="1" 
+F 0 "RN16" V 15050 3750 50  0000 C CNN
+F 1 "1k" V 15150 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 14725 3750 50  0001 C CNN
+F 3 "~" H 14450 3750 50  0001 C CNN
+	1    14450 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469355
+P 14450 4150
+AR Path="/61469355" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469355" Ref="RN20"  Part="1" 
+F 0 "RN20" V 14850 4150 50  0000 C CNN
+F 1 "1k" V 14950 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 14725 4150 50  0001 C CNN
+F 3 "~" H 14450 4150 50  0001 C CNN
+	1    14450 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 6146935B
+P 14450 2900
+AR Path="/6146935B" Ref="RN?"  Part="1" 
+AR Path="/6133367E/6146935B" Ref="RN8"  Part="1" 
+F 0 "RN8" V 13800 2900 50  0000 C CNN
+F 1 "1k" V 13900 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 14725 2900 50  0001 C CNN
+F 3 "~" H 14450 2900 50  0001 C CNN
+	1    14450 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469361
+P 14450 3300
+AR Path="/61469361" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469361" Ref="RN12"  Part="1" 
+F 0 "RN12" V 13600 3300 50  0000 C CNN
+F 1 "1k" V 13700 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 14725 3300 50  0001 C CNN
+F 3 "~" H 14450 3300 50  0001 C CNN
+	1    14450 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 61469367
+P 13800 3050
+AR Path="/61469367" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/61469367" Ref="LEDP3"  Part="1" 
+F 0 "LEDP3" H 13800 3650 50  0000 C CNN
+F 1 "LEDPACK" H 13800 3550 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 13800 3450 50  0001 C CNN
+F 3 "" H 13800 3450 50  0001 C CNN
+	1    13800 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 6146936D
+P 13350 3850
+AR Path="/6146936D" Ref="J?"  Part="1" 
+AR Path="/6133367E/6146936D" Ref="J7"  Part="1" 
+F 0 "J7" H 13200 3350 50  0000 L CNN
+F 1 "PF" H 13200 3250 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 13350 3850 50  0001 C CNN
+F 3 "~" H 13350 3850 50  0001 C CNN
+	1    13350 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614693B3
+P 14750 4350
+AR Path="/614693B3" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/614693B3" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 14750 4100 50  0001 C CNN
+F 1 "GND" H 14755 4177 50  0000 C CNN
+F 2 "" H 14750 4350 50  0001 C CNN
+F 3 "" H 14750 4350 50  0001 C CNN
+	1    14750 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614693E8
+P 12350 4600
+AR Path="/614693E8" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/614693E8" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 12350 4350 50  0001 C CNN
+F 1 "GND" H 12355 4427 50  0000 C CNN
+F 2 "" H 12350 4600 50  0001 C CNN
+F 3 "" H 12350 4600 50  0001 C CNN
+	1    12350 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 614693EF
+P 12750 2400
+AR Path="/614693EF" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/614693EF" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 12750 2250 50  0001 C CNN
+F 1 "+5V" H 12765 2573 50  0000 C CNN
+F 2 "" H 12750 2400 50  0001 C CNN
+F 3 "" H 12750 2400 50  0001 C CNN
+	1    12750 2400
+	1    0    0    -1  
+$EndComp
+Text GLabel 11650 3000 0    50   Input ~ 0
+~RST
+Text Label 11500 2700 0    50   ~ 0
+SCL0
+Text Label 11500 2800 0    50   ~ 0
+SDA0
+Entry Wire Line
+	11300 2600 11400 2700
+Entry Wire Line
+	11350 2700 11450 2800
+$Comp
+L power:+5V #PWR?
+U 1 1 614693FE
+P 11550 3350
+AR Path="/614693FE" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/614693FE" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 11550 3200 50  0001 C CNN
+F 1 "+5V" H 11565 3523 50  0000 C CNN
+F 2 "" H 11550 3350 50  0001 C CNN
+F 3 "" H 11550 3350 50  0001 C CNN
+	1    11550 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61469404
+P 11550 3400
+AR Path="/61469404" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469404" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 11550 3150 50  0001 C CNN
+F 1 "GND" H 11555 3227 50  0000 C CNN
+F 2 "" H 11550 3400 50  0001 C CNN
+F 3 "" H 11550 3400 50  0001 C CNN
+	1    11550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L super_expander:AW9523B U?
+U 1 1 6146940A
+P 16150 3450
+AR Path="/6146940A" Ref="U?"  Part="1" 
+AR Path="/6133367E/6146940A" Ref="U4"  Part="1" 
+F 0 "U4" H 16150 4681 50  0000 C CNN
+F 1 "AW9523B" H 16150 4590 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias" H 16350 4350 100 0001 C CNN
+F 3 "" H 16350 4350 100 0001 C CNN
+	1    16150 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 61469410
+P 17600 3900
+AR Path="/61469410" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/61469410" Ref="LEDP8"  Part="1" 
+F 0 "LEDP8" H 17600 3450 50  0000 C CNN
+F 1 "LEDPACK" H 17600 3350 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 17600 4300 50  0001 C CNN
+F 3 "" H 17600 4300 50  0001 C CNN
+	1    17600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 61469416
+P 17150 3100
+AR Path="/61469416" Ref="J?"  Part="1" 
+AR Path="/6133367E/61469416" Ref="J4"  Part="1" 
+F 0 "J4" H 17000 2450 50  0000 L CNN
+F 1 "PG" H 17000 2550 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 17150 3100 50  0001 C CNN
+F 3 "~" H 17150 3100 50  0001 C CNN
+	1    17150 3100
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 6146941C
+P 18250 3750
+AR Path="/6146941C" Ref="RN?"  Part="1" 
+AR Path="/6133367E/6146941C" Ref="RN17"  Part="1" 
+F 0 "RN17" V 18850 3750 50  0000 C CNN
+F 1 "1k" V 18950 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 18525 3750 50  0001 C CNN
+F 3 "~" H 18250 3750 50  0001 C CNN
+	1    18250 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469422
+P 18250 4150
+AR Path="/61469422" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469422" Ref="RN21"  Part="1" 
+F 0 "RN21" V 18650 4150 50  0000 C CNN
+F 1 "1k" V 18750 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 18525 4150 50  0001 C CNN
+F 3 "~" H 18250 4150 50  0001 C CNN
+	1    18250 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469428
+P 18250 2900
+AR Path="/61469428" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469428" Ref="RN9"  Part="1" 
+F 0 "RN9" V 17600 2900 50  0000 C CNN
+F 1 "1k" V 17700 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 18525 2900 50  0001 C CNN
+F 3 "~" H 18250 2900 50  0001 C CNN
+	1    18250 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 6146942E
+P 18250 3300
+AR Path="/6146942E" Ref="RN?"  Part="1" 
+AR Path="/6133367E/6146942E" Ref="RN13"  Part="1" 
+F 0 "RN13" V 17400 3300 50  0000 C CNN
+F 1 "1k" V 17500 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 18525 3300 50  0001 C CNN
+F 3 "~" H 18250 3300 50  0001 C CNN
+	1    18250 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 61469434
+P 17600 3050
+AR Path="/61469434" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/61469434" Ref="LEDP4"  Part="1" 
+F 0 "LEDP4" H 17600 3650 50  0000 C CNN
+F 1 "LEDPACK" H 17600 3550 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 17600 3450 50  0001 C CNN
+F 3 "" H 17600 3450 50  0001 C CNN
+	1    17600 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 6146943A
+P 17150 3850
+AR Path="/6146943A" Ref="J?"  Part="1" 
+AR Path="/6133367E/6146943A" Ref="J8"  Part="1" 
+F 0 "J8" H 17000 3350 50  0000 L CNN
+F 1 "PH" H 17000 3250 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 17150 3850 50  0001 C CNN
+F 3 "~" H 17150 3850 50  0001 C CNN
+	1    17150 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6146947B
+P 18550 4350
+AR Path="/6146947B" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/6146947B" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 18550 4100 50  0001 C CNN
+F 1 "GND" H 18555 4177 50  0000 C CNN
+F 2 "" H 18550 4350 50  0001 C CNN
+F 3 "" H 18550 4350 50  0001 C CNN
+	1    18550 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614694B0
+P 16150 4600
+AR Path="/614694B0" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/614694B0" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 16150 4350 50  0001 C CNN
+F 1 "GND" H 16155 4427 50  0000 C CNN
+F 2 "" H 16150 4600 50  0001 C CNN
+F 3 "" H 16150 4600 50  0001 C CNN
+	1    16150 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 614694B7
+P 16550 2400
+AR Path="/614694B7" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/614694B7" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 16550 2250 50  0001 C CNN
+F 1 "+5V" H 16565 2573 50  0000 C CNN
+F 2 "" H 16550 2400 50  0001 C CNN
+F 3 "" H 16550 2400 50  0001 C CNN
+	1    16550 2400
+	1    0    0    -1  
+$EndComp
+Text GLabel 15450 3000 0    50   Input ~ 0
+~RST
+Text Label 15300 2700 0    50   ~ 0
+SCL0
+Text Label 15300 2800 0    50   ~ 0
+SDA0
+Entry Wire Line
+	15100 2600 15200 2700
+Entry Wire Line
+	15150 2700 15250 2800
+$Comp
+L power:+5V #PWR?
+U 1 1 614694C6
+P 15350 3350
+AR Path="/614694C6" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/614694C6" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 15350 3200 50  0001 C CNN
+F 1 "+5V" H 15365 3523 50  0000 C CNN
+F 2 "" H 15350 3350 50  0001 C CNN
+F 3 "" H 15350 3350 50  0001 C CNN
+	1    15350 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L super_expander:AW9523B U?
+U 1 1 614694D7
+P 4750 6200
+AR Path="/614694D7" Ref="U?"  Part="1" 
+AR Path="/6133367E/614694D7" Ref="U5"  Part="1" 
+F 0 "U5" H 4750 7431 50  0000 C CNN
+F 1 "AW9523B" H 4750 7340 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias" H 4950 7100 100 0001 C CNN
+F 3 "" H 4950 7100 100 0001 C CNN
+	1    4750 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 614694DD
+P 6200 6650
+AR Path="/614694DD" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/614694DD" Ref="LEDP13"  Part="1" 
+F 0 "LEDP13" H 6200 6200 50  0000 C CNN
+F 1 "LEDPACK" H 6200 6100 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 6200 7050 50  0001 C CNN
+F 3 "" H 6200 7050 50  0001 C CNN
+	1    6200 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 614694E3
+P 5750 5850
+AR Path="/614694E3" Ref="J?"  Part="1" 
+AR Path="/6133367E/614694E3" Ref="J9"  Part="1" 
+F 0 "J9" H 5600 5200 50  0000 L CNN
+F 1 "PI" H 5600 5300 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 5750 5850 50  0001 C CNN
+F 3 "~" H 5750 5850 50  0001 C CNN
+	1    5750 5850
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 614694E9
+P 6850 6500
+AR Path="/614694E9" Ref="RN?"  Part="1" 
+AR Path="/6133367E/614694E9" Ref="RN30"  Part="1" 
+F 0 "RN30" V 7450 6500 50  0000 C CNN
+F 1 "1k" V 7550 6500 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7125 6500 50  0001 C CNN
+F 3 "~" H 6850 6500 50  0001 C CNN
+	1    6850 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 614694EF
+P 6850 6900
+AR Path="/614694EF" Ref="RN?"  Part="1" 
+AR Path="/6133367E/614694EF" Ref="RN34"  Part="1" 
+F 0 "RN34" V 7250 6900 50  0000 C CNN
+F 1 "1k" V 7350 6900 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7125 6900 50  0001 C CNN
+F 3 "~" H 6850 6900 50  0001 C CNN
+	1    6850 6900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 614694F5
+P 6850 5650
+AR Path="/614694F5" Ref="RN?"  Part="1" 
+AR Path="/6133367E/614694F5" Ref="RN22"  Part="1" 
+F 0 "RN22" V 6200 5650 50  0000 C CNN
+F 1 "1k" V 6300 5650 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7125 5650 50  0001 C CNN
+F 3 "~" H 6850 5650 50  0001 C CNN
+	1    6850 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 614694FB
+P 6850 6050
+AR Path="/614694FB" Ref="RN?"  Part="1" 
+AR Path="/6133367E/614694FB" Ref="RN26"  Part="1" 
+F 0 "RN26" V 6000 6050 50  0000 C CNN
+F 1 "1k" V 6100 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7125 6050 50  0001 C CNN
+F 3 "~" H 6850 6050 50  0001 C CNN
+	1    6850 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 61469501
+P 6200 5800
+AR Path="/61469501" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/61469501" Ref="LEDP9"  Part="1" 
+F 0 "LEDP9" H 6200 6400 50  0000 C CNN
+F 1 "LEDPACK" H 6200 6300 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 6200 6200 50  0001 C CNN
+F 3 "" H 6200 6200 50  0001 C CNN
+	1    6200 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 61469507
+P 5750 6600
+AR Path="/61469507" Ref="J?"  Part="1" 
+AR Path="/6133367E/61469507" Ref="J13"  Part="1" 
+F 0 "J13" H 5600 6100 50  0000 L CNN
+F 1 "PJ" H 5600 6000 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 5750 6600 50  0001 C CNN
+F 3 "~" H 5750 6600 50  0001 C CNN
+	1    5750 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6146954D
+P 7150 7100
+AR Path="/6146954D" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/6146954D" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 7150 6850 50  0001 C CNN
+F 1 "GND" H 7155 6927 50  0000 C CNN
+F 2 "" H 7150 7100 50  0001 C CNN
+F 3 "" H 7150 7100 50  0001 C CNN
+	1    7150 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61469582
+P 4750 7350
+AR Path="/61469582" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469582" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 4750 7100 50  0001 C CNN
+F 1 "GND" H 4755 7177 50  0000 C CNN
+F 2 "" H 4750 7350 50  0001 C CNN
+F 3 "" H 4750 7350 50  0001 C CNN
+	1    4750 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61469589
+P 5150 5150
+AR Path="/61469589" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469589" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 5150 5000 50  0001 C CNN
+F 1 "+5V" H 5165 5323 50  0000 C CNN
+F 2 "" H 5150 5150 50  0001 C CNN
+F 3 "" H 5150 5150 50  0001 C CNN
+	1    5150 5150
+	1    0    0    -1  
+$EndComp
+Text GLabel 4050 5750 0    50   Input ~ 0
+~RST
+Text Label 3900 5450 0    50   ~ 0
+SCL1
+Text Label 3900 5550 0    50   ~ 0
+SDA1
+Entry Wire Line
+	3700 5350 3800 5450
+Entry Wire Line
+	3750 5450 3850 5550
+$Comp
+L super_expander:AW9523B U?
+U 1 1 614695A4
+P 8550 6200
+AR Path="/614695A4" Ref="U?"  Part="1" 
+AR Path="/6133367E/614695A4" Ref="U6"  Part="1" 
+F 0 "U6" H 8550 7431 50  0000 C CNN
+F 1 "AW9523B" H 8550 7340 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias" H 8750 7100 100 0001 C CNN
+F 3 "" H 8750 7100 100 0001 C CNN
+	1    8550 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 614695AA
+P 10000 6650
+AR Path="/614695AA" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/614695AA" Ref="LEDP14"  Part="1" 
+F 0 "LEDP14" H 10000 6200 50  0000 C CNN
+F 1 "LEDPACK" H 10000 6100 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 10000 7050 50  0001 C CNN
+F 3 "" H 10000 7050 50  0001 C CNN
+	1    10000 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 614695B0
+P 9550 5850
+AR Path="/614695B0" Ref="J?"  Part="1" 
+AR Path="/6133367E/614695B0" Ref="J10"  Part="1" 
+F 0 "J10" H 9400 5200 50  0000 L CNN
+F 1 "PK" H 9400 5300 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 9550 5850 50  0001 C CNN
+F 3 "~" H 9550 5850 50  0001 C CNN
+	1    9550 5850
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 614695B6
+P 10650 6500
+AR Path="/614695B6" Ref="RN?"  Part="1" 
+AR Path="/6133367E/614695B6" Ref="RN31"  Part="1" 
+F 0 "RN31" V 11250 6500 50  0000 C CNN
+F 1 "1k" V 11350 6500 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 10925 6500 50  0001 C CNN
+F 3 "~" H 10650 6500 50  0001 C CNN
+	1    10650 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 614695BC
+P 10650 6900
+AR Path="/614695BC" Ref="RN?"  Part="1" 
+AR Path="/6133367E/614695BC" Ref="RN35"  Part="1" 
+F 0 "RN35" V 11050 6900 50  0000 C CNN
+F 1 "1k" V 11150 6900 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 10925 6900 50  0001 C CNN
+F 3 "~" H 10650 6900 50  0001 C CNN
+	1    10650 6900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 614695C2
+P 10650 5650
+AR Path="/614695C2" Ref="RN?"  Part="1" 
+AR Path="/6133367E/614695C2" Ref="RN23"  Part="1" 
+F 0 "RN23" V 10000 5650 50  0000 C CNN
+F 1 "1k" V 10100 5650 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 10925 5650 50  0001 C CNN
+F 3 "~" H 10650 5650 50  0001 C CNN
+	1    10650 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 614695C8
+P 10650 6050
+AR Path="/614695C8" Ref="RN?"  Part="1" 
+AR Path="/6133367E/614695C8" Ref="RN27"  Part="1" 
+F 0 "RN27" V 9800 6050 50  0000 C CNN
+F 1 "1k" V 9900 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 10925 6050 50  0001 C CNN
+F 3 "~" H 10650 6050 50  0001 C CNN
+	1    10650 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 614695CE
+P 10000 5800
+AR Path="/614695CE" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/614695CE" Ref="LEDP10"  Part="1" 
+F 0 "LEDP10" H 10000 6400 50  0000 C CNN
+F 1 "LEDPACK" H 10000 6300 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 10000 6200 50  0001 C CNN
+F 3 "" H 10000 6200 50  0001 C CNN
+	1    10000 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 614695D4
+P 9550 6600
+AR Path="/614695D4" Ref="J?"  Part="1" 
+AR Path="/6133367E/614695D4" Ref="J14"  Part="1" 
+F 0 "J14" H 9400 6100 50  0000 L CNN
+F 1 "PL" H 9400 6000 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 9550 6600 50  0001 C CNN
+F 3 "~" H 9550 6600 50  0001 C CNN
+	1    9550 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61469615
+P 10950 7100
+AR Path="/61469615" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469615" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 10950 6850 50  0001 C CNN
+F 1 "GND" H 10955 6927 50  0000 C CNN
+F 2 "" H 10950 7100 50  0001 C CNN
+F 3 "" H 10950 7100 50  0001 C CNN
+	1    10950 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6146964A
+P 8550 7350
+AR Path="/6146964A" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/6146964A" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 8550 7100 50  0001 C CNN
+F 1 "GND" H 8555 7177 50  0000 C CNN
+F 2 "" H 8550 7350 50  0001 C CNN
+F 3 "" H 8550 7350 50  0001 C CNN
+	1    8550 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61469651
+P 8950 5150
+AR Path="/61469651" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469651" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 8950 5000 50  0001 C CNN
+F 1 "+5V" H 8965 5323 50  0000 C CNN
+F 2 "" H 8950 5150 50  0001 C CNN
+F 3 "" H 8950 5150 50  0001 C CNN
+	1    8950 5150
+	1    0    0    -1  
+$EndComp
+Text GLabel 7850 5750 0    50   Input ~ 0
+~RST
+Text Label 7700 5450 0    50   ~ 0
+SCL1
+Text Label 7700 5550 0    50   ~ 0
+SDA1
+Entry Wire Line
+	7500 5350 7600 5450
+Entry Wire Line
+	7550 5450 7650 5550
+$Comp
+L super_expander:AW9523B U?
+U 1 1 61469671
+P 12350 6250
+AR Path="/61469671" Ref="U?"  Part="1" 
+AR Path="/6133367E/61469671" Ref="U7"  Part="1" 
+F 0 "U7" H 12350 7481 50  0000 C CNN
+F 1 "AW9523B" H 12350 7390 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias" H 12550 7150 100 0001 C CNN
+F 3 "" H 12550 7150 100 0001 C CNN
+	1    12350 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 61469677
+P 13800 6700
+AR Path="/61469677" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/61469677" Ref="LEDP15"  Part="1" 
+F 0 "LEDP15" H 13800 6250 50  0000 C CNN
+F 1 "LEDPACK" H 13800 6150 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 13800 7100 50  0001 C CNN
+F 3 "" H 13800 7100 50  0001 C CNN
+	1    13800 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 6146967D
+P 13350 5900
+AR Path="/6146967D" Ref="J?"  Part="1" 
+AR Path="/6133367E/6146967D" Ref="J11"  Part="1" 
+F 0 "J11" H 13200 5250 50  0000 L CNN
+F 1 "PM" H 13200 5350 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 13350 5900 50  0001 C CNN
+F 3 "~" H 13350 5900 50  0001 C CNN
+	1    13350 5900
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469683
+P 14450 6550
+AR Path="/61469683" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469683" Ref="RN32"  Part="1" 
+F 0 "RN32" V 15050 6550 50  0000 C CNN
+F 1 "1k" V 15150 6550 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 14725 6550 50  0001 C CNN
+F 3 "~" H 14450 6550 50  0001 C CNN
+	1    14450 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469689
+P 14450 6950
+AR Path="/61469689" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469689" Ref="RN36"  Part="1" 
+F 0 "RN36" V 14850 6950 50  0000 C CNN
+F 1 "1k" V 14950 6950 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 14725 6950 50  0001 C CNN
+F 3 "~" H 14450 6950 50  0001 C CNN
+	1    14450 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 6146968F
+P 14450 5700
+AR Path="/6146968F" Ref="RN?"  Part="1" 
+AR Path="/6133367E/6146968F" Ref="RN24"  Part="1" 
+F 0 "RN24" V 13800 5700 50  0000 C CNN
+F 1 "1k" V 13900 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 14725 5700 50  0001 C CNN
+F 3 "~" H 14450 5700 50  0001 C CNN
+	1    14450 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469695
+P 14450 6100
+AR Path="/61469695" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469695" Ref="RN28"  Part="1" 
+F 0 "RN28" V 13600 6100 50  0000 C CNN
+F 1 "1k" V 13700 6100 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 14725 6100 50  0001 C CNN
+F 3 "~" H 14450 6100 50  0001 C CNN
+	1    14450 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 6146969B
+P 13800 5850
+AR Path="/6146969B" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/6146969B" Ref="LEDP11"  Part="1" 
+F 0 "LEDP11" H 13800 6450 50  0000 C CNN
+F 1 "LEDPACK" H 13800 6350 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 13800 6250 50  0001 C CNN
+F 3 "" H 13800 6250 50  0001 C CNN
+	1    13800 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 614696A1
+P 13350 6650
+AR Path="/614696A1" Ref="J?"  Part="1" 
+AR Path="/6133367E/614696A1" Ref="J15"  Part="1" 
+F 0 "J15" H 13200 6150 50  0000 L CNN
+F 1 "PN" H 13200 6050 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 13350 6650 50  0001 C CNN
+F 3 "~" H 13350 6650 50  0001 C CNN
+	1    13350 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614696E7
+P 14750 7150
+AR Path="/614696E7" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/614696E7" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 14750 6900 50  0001 C CNN
+F 1 "GND" H 14755 6977 50  0000 C CNN
+F 2 "" H 14750 7150 50  0001 C CNN
+F 3 "" H 14750 7150 50  0001 C CNN
+	1    14750 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6146971C
+P 12350 7400
+AR Path="/6146971C" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/6146971C" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0126" H 12350 7150 50  0001 C CNN
+F 1 "GND" H 12355 7227 50  0000 C CNN
+F 2 "" H 12350 7400 50  0001 C CNN
+F 3 "" H 12350 7400 50  0001 C CNN
+	1    12350 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61469723
+P 12750 5200
+AR Path="/61469723" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469723" Ref="#PWR0127"  Part="1" 
+F 0 "#PWR0127" H 12750 5050 50  0001 C CNN
+F 1 "+5V" H 12765 5373 50  0000 C CNN
+F 2 "" H 12750 5200 50  0001 C CNN
+F 3 "" H 12750 5200 50  0001 C CNN
+	1    12750 5200
+	1    0    0    -1  
+$EndComp
+Text GLabel 11650 5800 0    50   Input ~ 0
+~RST
+Text Label 11500 5500 0    50   ~ 0
+SCL1
+Text Label 11500 5600 0    50   ~ 0
+SDA1
+Entry Wire Line
+	11300 5400 11400 5500
+Entry Wire Line
+	11350 5500 11450 5600
+$Comp
+L super_expander:AW9523B U?
+U 1 1 6146973E
+P 16150 6250
+AR Path="/6146973E" Ref="U?"  Part="1" 
+AR Path="/6133367E/6146973E" Ref="U8"  Part="1" 
+F 0 "U8" H 16150 7481 50  0000 C CNN
+F 1 "AW9523B" H 16150 7390 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias" H 16350 7150 100 0001 C CNN
+F 3 "" H 16350 7150 100 0001 C CNN
+	1    16150 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 61469744
+P 17600 6700
+AR Path="/61469744" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/61469744" Ref="LEDP16"  Part="1" 
+F 0 "LEDP16" H 17600 6250 50  0000 C CNN
+F 1 "LEDPACK" H 17600 6150 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 17600 7100 50  0001 C CNN
+F 3 "" H 17600 7100 50  0001 C CNN
+	1    17600 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 6146974A
+P 17150 5900
+AR Path="/6146974A" Ref="J?"  Part="1" 
+AR Path="/6133367E/6146974A" Ref="J12"  Part="1" 
+F 0 "J12" H 17000 5250 50  0000 L CNN
+F 1 "PO" H 17000 5350 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 17150 5900 50  0001 C CNN
+F 3 "~" H 17150 5900 50  0001 C CNN
+	1    17150 5900
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469750
+P 18250 6550
+AR Path="/61469750" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469750" Ref="RN33"  Part="1" 
+F 0 "RN33" V 18850 6550 50  0000 C CNN
+F 1 "1k" V 18950 6550 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 18525 6550 50  0001 C CNN
+F 3 "~" H 18250 6550 50  0001 C CNN
+	1    18250 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469756
+P 18250 6950
+AR Path="/61469756" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469756" Ref="RN37"  Part="1" 
+F 0 "RN37" V 18650 6950 50  0000 C CNN
+F 1 "1k" V 18750 6950 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 18525 6950 50  0001 C CNN
+F 3 "~" H 18250 6950 50  0001 C CNN
+	1    18250 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 6146975C
+P 18250 5700
+AR Path="/6146975C" Ref="RN?"  Part="1" 
+AR Path="/6133367E/6146975C" Ref="RN25"  Part="1" 
+F 0 "RN25" V 17600 5700 50  0000 C CNN
+F 1 "1k" V 17700 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 18525 5700 50  0001 C CNN
+F 3 "~" H 18250 5700 50  0001 C CNN
+	1    18250 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469762
+P 18250 6100
+AR Path="/61469762" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469762" Ref="RN29"  Part="1" 
+F 0 "RN29" V 17400 6100 50  0000 C CNN
+F 1 "1k" V 17500 6100 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 18525 6100 50  0001 C CNN
+F 3 "~" H 18250 6100 50  0001 C CNN
+	1    18250 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 61469768
+P 17600 5850
+AR Path="/61469768" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/61469768" Ref="LEDP12"  Part="1" 
+F 0 "LEDP12" H 17600 6450 50  0000 C CNN
+F 1 "LEDPACK" H 17600 6350 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 17600 6250 50  0001 C CNN
+F 3 "" H 17600 6250 50  0001 C CNN
+	1    17600 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 6146976E
+P 17150 6650
+AR Path="/6146976E" Ref="J?"  Part="1" 
+AR Path="/6133367E/6146976E" Ref="J16"  Part="1" 
+F 0 "J16" H 17000 6150 50  0000 L CNN
+F 1 "PP" H 17000 6050 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 17150 6650 50  0001 C CNN
+F 3 "~" H 17150 6650 50  0001 C CNN
+	1    17150 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614697AF
+P 18550 7150
+AR Path="/614697AF" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/614697AF" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 18550 6900 50  0001 C CNN
+F 1 "GND" H 18555 6977 50  0000 C CNN
+F 2 "" H 18550 7150 50  0001 C CNN
+F 3 "" H 18550 7150 50  0001 C CNN
+	1    18550 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614697E4
+P 16150 7400
+AR Path="/614697E4" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/614697E4" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 16150 7150 50  0001 C CNN
+F 1 "GND" H 16155 7227 50  0000 C CNN
+F 2 "" H 16150 7400 50  0001 C CNN
+F 3 "" H 16150 7400 50  0001 C CNN
+	1    16150 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 614697EB
+P 16550 5200
+AR Path="/614697EB" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/614697EB" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0130" H 16550 5050 50  0001 C CNN
+F 1 "+5V" H 16565 5373 50  0000 C CNN
+F 2 "" H 16550 5200 50  0001 C CNN
+F 3 "" H 16550 5200 50  0001 C CNN
+	1    16550 5200
+	1    0    0    -1  
+$EndComp
+Text GLabel 15450 5800 0    50   Input ~ 0
+~RST
+Text Label 15300 5500 0    50   ~ 0
+SCL1
+Text Label 15300 5600 0    50   ~ 0
+SDA1
+Entry Wire Line
+	15100 5400 15200 5500
+Entry Wire Line
+	15150 5500 15250 5600
+$Comp
+L super_expander:AW9523B U?
+U 1 1 6146980B
+P 4750 9000
+AR Path="/6146980B" Ref="U?"  Part="1" 
+AR Path="/6133367E/6146980B" Ref="U9"  Part="1" 
+F 0 "U9" H 4750 10231 50  0000 C CNN
+F 1 "AW9523B" H 4750 10140 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias" H 4950 9900 100 0001 C CNN
+F 3 "" H 4950 9900 100 0001 C CNN
+	1    4750 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 61469811
+P 6200 9450
+AR Path="/61469811" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/61469811" Ref="LEDP21"  Part="1" 
+F 0 "LEDP21" H 6200 9000 50  0000 C CNN
+F 1 "LEDPACK" H 6200 8900 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 6200 9850 50  0001 C CNN
+F 3 "" H 6200 9850 50  0001 C CNN
+	1    6200 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 61469817
+P 5750 8650
+AR Path="/61469817" Ref="J?"  Part="1" 
+AR Path="/6133367E/61469817" Ref="J17"  Part="1" 
+F 0 "J17" H 5600 8000 50  0000 L CNN
+F 1 "PQ" H 5600 8100 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 5750 8650 50  0001 C CNN
+F 3 "~" H 5750 8650 50  0001 C CNN
+	1    5750 8650
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 6146981D
+P 6850 9300
+AR Path="/6146981D" Ref="RN?"  Part="1" 
+AR Path="/6133367E/6146981D" Ref="RN46"  Part="1" 
+F 0 "RN46" V 7450 9300 50  0000 C CNN
+F 1 "1k" V 7550 9300 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7125 9300 50  0001 C CNN
+F 3 "~" H 6850 9300 50  0001 C CNN
+	1    6850 9300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469823
+P 6850 9700
+AR Path="/61469823" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469823" Ref="RN50"  Part="1" 
+F 0 "RN50" V 7250 9700 50  0000 C CNN
+F 1 "1k" V 7350 9700 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7125 9700 50  0001 C CNN
+F 3 "~" H 6850 9700 50  0001 C CNN
+	1    6850 9700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469829
+P 6850 8450
+AR Path="/61469829" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469829" Ref="RN38"  Part="1" 
+F 0 "RN38" V 6200 8450 50  0000 C CNN
+F 1 "1k" V 6300 8450 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7125 8450 50  0001 C CNN
+F 3 "~" H 6850 8450 50  0001 C CNN
+	1    6850 8450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 6146982F
+P 6850 8850
+AR Path="/6146982F" Ref="RN?"  Part="1" 
+AR Path="/6133367E/6146982F" Ref="RN42"  Part="1" 
+F 0 "RN42" V 6000 8850 50  0000 C CNN
+F 1 "1k" V 6100 8850 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7125 8850 50  0001 C CNN
+F 3 "~" H 6850 8850 50  0001 C CNN
+	1    6850 8850
+	0    1    1    0   
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 61469835
+P 6200 8600
+AR Path="/61469835" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/61469835" Ref="LEDP17"  Part="1" 
+F 0 "LEDP17" H 6200 9200 50  0000 C CNN
+F 1 "LEDPACK" H 6200 9100 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 6200 9000 50  0001 C CNN
+F 3 "" H 6200 9000 50  0001 C CNN
+	1    6200 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 6146983B
+P 5750 9400
+AR Path="/6146983B" Ref="J?"  Part="1" 
+AR Path="/6133367E/6146983B" Ref="J21"  Part="1" 
+F 0 "J21" H 5600 8900 50  0000 L CNN
+F 1 "PR" H 5600 8800 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 5750 9400 50  0001 C CNN
+F 3 "~" H 5750 9400 50  0001 C CNN
+	1    5750 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61469881
+P 7150 9900
+AR Path="/61469881" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469881" Ref="#PWR0131"  Part="1" 
+F 0 "#PWR0131" H 7150 9650 50  0001 C CNN
+F 1 "GND" H 7155 9727 50  0000 C CNN
+F 2 "" H 7150 9900 50  0001 C CNN
+F 3 "" H 7150 9900 50  0001 C CNN
+	1    7150 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614698B6
+P 4750 10150
+AR Path="/614698B6" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/614698B6" Ref="#PWR0132"  Part="1" 
+F 0 "#PWR0132" H 4750 9900 50  0001 C CNN
+F 1 "GND" H 4755 9977 50  0000 C CNN
+F 2 "" H 4750 10150 50  0001 C CNN
+F 3 "" H 4750 10150 50  0001 C CNN
+	1    4750 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 614698BD
+P 5150 7950
+AR Path="/614698BD" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/614698BD" Ref="#PWR0133"  Part="1" 
+F 0 "#PWR0133" H 5150 7800 50  0001 C CNN
+F 1 "+5V" H 5165 8123 50  0000 C CNN
+F 2 "" H 5150 7950 50  0001 C CNN
+F 3 "" H 5150 7950 50  0001 C CNN
+	1    5150 7950
+	1    0    0    -1  
+$EndComp
+Text GLabel 4050 8550 0    50   Input ~ 0
+~RST
+Text Label 3900 8250 0    50   ~ 0
+SCL2
+Text Label 3900 8350 0    50   ~ 0
+SDA2
+Entry Wire Line
+	3700 8150 3800 8250
+Entry Wire Line
+	3750 8250 3850 8350
+$Comp
+L super_expander:AW9523B U?
+U 1 1 614698D8
+P 8550 9000
+AR Path="/614698D8" Ref="U?"  Part="1" 
+AR Path="/6133367E/614698D8" Ref="U10"  Part="1" 
+F 0 "U10" H 8550 10231 50  0000 C CNN
+F 1 "AW9523B" H 8550 10140 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias" H 8750 9900 100 0001 C CNN
+F 3 "" H 8750 9900 100 0001 C CNN
+	1    8550 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 614698DE
+P 10000 9450
+AR Path="/614698DE" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/614698DE" Ref="LEDP22"  Part="1" 
+F 0 "LEDP22" H 10000 9000 50  0000 C CNN
+F 1 "LEDPACK" H 10000 8900 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 10000 9850 50  0001 C CNN
+F 3 "" H 10000 9850 50  0001 C CNN
+	1    10000 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 614698E4
+P 9550 8650
+AR Path="/614698E4" Ref="J?"  Part="1" 
+AR Path="/6133367E/614698E4" Ref="J18"  Part="1" 
+F 0 "J18" H 9400 8000 50  0000 L CNN
+F 1 "PS" H 9400 8100 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 9550 8650 50  0001 C CNN
+F 3 "~" H 9550 8650 50  0001 C CNN
+	1    9550 8650
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 614698EA
+P 10650 9300
+AR Path="/614698EA" Ref="RN?"  Part="1" 
+AR Path="/6133367E/614698EA" Ref="RN47"  Part="1" 
+F 0 "RN47" V 11250 9300 50  0000 C CNN
+F 1 "1k" V 11350 9300 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 10925 9300 50  0001 C CNN
+F 3 "~" H 10650 9300 50  0001 C CNN
+	1    10650 9300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 614698F0
+P 10650 9700
+AR Path="/614698F0" Ref="RN?"  Part="1" 
+AR Path="/6133367E/614698F0" Ref="RN51"  Part="1" 
+F 0 "RN51" V 11050 9700 50  0000 C CNN
+F 1 "1k" V 11150 9700 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 10925 9700 50  0001 C CNN
+F 3 "~" H 10650 9700 50  0001 C CNN
+	1    10650 9700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 614698F6
+P 10650 8450
+AR Path="/614698F6" Ref="RN?"  Part="1" 
+AR Path="/6133367E/614698F6" Ref="RN39"  Part="1" 
+F 0 "RN39" V 10000 8450 50  0000 C CNN
+F 1 "1k" V 10100 8450 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 10925 8450 50  0001 C CNN
+F 3 "~" H 10650 8450 50  0001 C CNN
+	1    10650 8450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 614698FC
+P 10650 8850
+AR Path="/614698FC" Ref="RN?"  Part="1" 
+AR Path="/6133367E/614698FC" Ref="RN43"  Part="1" 
+F 0 "RN43" V 9800 8850 50  0000 C CNN
+F 1 "1k" V 9900 8850 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 10925 8850 50  0001 C CNN
+F 3 "~" H 10650 8850 50  0001 C CNN
+	1    10650 8850
+	0    1    1    0   
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 61469902
+P 10000 8600
+AR Path="/61469902" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/61469902" Ref="LEDP18"  Part="1" 
+F 0 "LEDP18" H 10000 9200 50  0000 C CNN
+F 1 "LEDPACK" H 10000 9100 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 10000 9000 50  0001 C CNN
+F 3 "" H 10000 9000 50  0001 C CNN
+	1    10000 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 61469908
+P 9550 9400
+AR Path="/61469908" Ref="J?"  Part="1" 
+AR Path="/6133367E/61469908" Ref="J22"  Part="1" 
+F 0 "J22" H 9400 8900 50  0000 L CNN
+F 1 "PT" H 9400 8800 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 9550 9400 50  0001 C CNN
+F 3 "~" H 9550 9400 50  0001 C CNN
+	1    9550 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61469949
+P 10950 9900
+AR Path="/61469949" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469949" Ref="#PWR0134"  Part="1" 
+F 0 "#PWR0134" H 10950 9650 50  0001 C CNN
+F 1 "GND" H 10955 9727 50  0000 C CNN
+F 2 "" H 10950 9900 50  0001 C CNN
+F 3 "" H 10950 9900 50  0001 C CNN
+	1    10950 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6146997E
+P 8550 10150
+AR Path="/6146997E" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/6146997E" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR0135" H 8550 9900 50  0001 C CNN
+F 1 "GND" H 8555 9977 50  0000 C CNN
+F 2 "" H 8550 10150 50  0001 C CNN
+F 3 "" H 8550 10150 50  0001 C CNN
+	1    8550 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61469985
+P 8950 7950
+AR Path="/61469985" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469985" Ref="#PWR0136"  Part="1" 
+F 0 "#PWR0136" H 8950 7800 50  0001 C CNN
+F 1 "+5V" H 8965 8123 50  0000 C CNN
+F 2 "" H 8950 7950 50  0001 C CNN
+F 3 "" H 8950 7950 50  0001 C CNN
+	1    8950 7950
+	1    0    0    -1  
+$EndComp
+Text GLabel 7850 8550 0    50   Input ~ 0
+~RST
+Text Label 7700 8250 0    50   ~ 0
+SCL2
+Text Label 7700 8350 0    50   ~ 0
+SDA2
+Entry Wire Line
+	7500 8150 7600 8250
+Entry Wire Line
+	7550 8250 7650 8350
+$Comp
+L super_expander:AW9523B U?
+U 1 1 614699A5
+P 12350 9050
+AR Path="/614699A5" Ref="U?"  Part="1" 
+AR Path="/6133367E/614699A5" Ref="U11"  Part="1" 
+F 0 "U11" H 12350 10281 50  0000 C CNN
+F 1 "AW9523B" H 12350 10190 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias" H 12550 9950 100 0001 C CNN
+F 3 "" H 12550 9950 100 0001 C CNN
+	1    12350 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 614699AB
+P 13800 9500
+AR Path="/614699AB" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/614699AB" Ref="LEDP23"  Part="1" 
+F 0 "LEDP23" H 13800 9050 50  0000 C CNN
+F 1 "LEDPACK" H 13800 8950 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 13800 9900 50  0001 C CNN
+F 3 "" H 13800 9900 50  0001 C CNN
+	1    13800 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 614699B1
+P 13350 8700
+AR Path="/614699B1" Ref="J?"  Part="1" 
+AR Path="/6133367E/614699B1" Ref="J19"  Part="1" 
+F 0 "J19" H 13200 8050 50  0000 L CNN
+F 1 "PU" H 13200 8150 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 13350 8700 50  0001 C CNN
+F 3 "~" H 13350 8700 50  0001 C CNN
+	1    13350 8700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 614699B7
+P 14450 9350
+AR Path="/614699B7" Ref="RN?"  Part="1" 
+AR Path="/6133367E/614699B7" Ref="RN48"  Part="1" 
+F 0 "RN48" V 15050 9350 50  0000 C CNN
+F 1 "1k" V 15150 9350 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 14725 9350 50  0001 C CNN
+F 3 "~" H 14450 9350 50  0001 C CNN
+	1    14450 9350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 614699BD
+P 14450 9750
+AR Path="/614699BD" Ref="RN?"  Part="1" 
+AR Path="/6133367E/614699BD" Ref="RN52"  Part="1" 
+F 0 "RN52" V 14850 9750 50  0000 C CNN
+F 1 "1k" V 14950 9750 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 14725 9750 50  0001 C CNN
+F 3 "~" H 14450 9750 50  0001 C CNN
+	1    14450 9750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 614699C3
+P 14450 8500
+AR Path="/614699C3" Ref="RN?"  Part="1" 
+AR Path="/6133367E/614699C3" Ref="RN40"  Part="1" 
+F 0 "RN40" V 13800 8500 50  0000 C CNN
+F 1 "1k" V 13900 8500 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 14725 8500 50  0001 C CNN
+F 3 "~" H 14450 8500 50  0001 C CNN
+	1    14450 8500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 614699C9
+P 14450 8900
+AR Path="/614699C9" Ref="RN?"  Part="1" 
+AR Path="/6133367E/614699C9" Ref="RN44"  Part="1" 
+F 0 "RN44" V 13600 8900 50  0000 C CNN
+F 1 "1k" V 13700 8900 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 14725 8900 50  0001 C CNN
+F 3 "~" H 14450 8900 50  0001 C CNN
+	1    14450 8900
+	0    1    1    0   
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 614699CF
+P 13800 8650
+AR Path="/614699CF" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/614699CF" Ref="LEDP19"  Part="1" 
+F 0 "LEDP19" H 13800 9250 50  0000 C CNN
+F 1 "LEDPACK" H 13800 9150 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 13800 9050 50  0001 C CNN
+F 3 "" H 13800 9050 50  0001 C CNN
+	1    13800 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 614699D5
+P 13350 9450
+AR Path="/614699D5" Ref="J?"  Part="1" 
+AR Path="/6133367E/614699D5" Ref="J23"  Part="1" 
+F 0 "J23" H 13200 8950 50  0000 L CNN
+F 1 "PV" H 13200 8850 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 13350 9450 50  0001 C CNN
+F 3 "~" H 13350 9450 50  0001 C CNN
+	1    13350 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61469A1B
+P 14750 9950
+AR Path="/61469A1B" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469A1B" Ref="#PWR0137"  Part="1" 
+F 0 "#PWR0137" H 14750 9700 50  0001 C CNN
+F 1 "GND" H 14755 9777 50  0000 C CNN
+F 2 "" H 14750 9950 50  0001 C CNN
+F 3 "" H 14750 9950 50  0001 C CNN
+	1    14750 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61469A50
+P 12350 10200
+AR Path="/61469A50" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469A50" Ref="#PWR0138"  Part="1" 
+F 0 "#PWR0138" H 12350 9950 50  0001 C CNN
+F 1 "GND" H 12355 10027 50  0000 C CNN
+F 2 "" H 12350 10200 50  0001 C CNN
+F 3 "" H 12350 10200 50  0001 C CNN
+	1    12350 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61469A57
+P 12750 8000
+AR Path="/61469A57" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469A57" Ref="#PWR0139"  Part="1" 
+F 0 "#PWR0139" H 12750 7850 50  0001 C CNN
+F 1 "+5V" H 12765 8173 50  0000 C CNN
+F 2 "" H 12750 8000 50  0001 C CNN
+F 3 "" H 12750 8000 50  0001 C CNN
+	1    12750 8000
+	1    0    0    -1  
+$EndComp
+Text GLabel 11650 8600 0    50   Input ~ 0
+~RST
+Text Label 11500 8300 0    50   ~ 0
+SCL2
+Text Label 11500 8400 0    50   ~ 0
+SDA2
+Entry Wire Line
+	11300 8200 11400 8300
+Entry Wire Line
+	11350 8300 11450 8400
+$Comp
+L super_expander:AW9523B U?
+U 1 1 61469A72
+P 16150 9050
+AR Path="/61469A72" Ref="U?"  Part="1" 
+AR Path="/6133367E/61469A72" Ref="U12"  Part="1" 
+F 0 "U12" H 16150 10281 50  0000 C CNN
+F 1 "AW9523B" H 16150 10190 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias" H 16350 9950 100 0001 C CNN
+F 3 "" H 16350 9950 100 0001 C CNN
+	1    16150 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 61469A78
+P 17600 9500
+AR Path="/61469A78" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/61469A78" Ref="LEDP24"  Part="1" 
+F 0 "LEDP24" H 17600 9050 50  0000 C CNN
+F 1 "LEDPACK" H 17600 8950 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 17600 9900 50  0001 C CNN
+F 3 "" H 17600 9900 50  0001 C CNN
+	1    17600 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 61469A7E
+P 17150 8700
+AR Path="/61469A7E" Ref="J?"  Part="1" 
+AR Path="/6133367E/61469A7E" Ref="J20"  Part="1" 
+F 0 "J20" H 17000 8050 50  0000 L CNN
+F 1 "PW" H 17000 8150 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 17150 8700 50  0001 C CNN
+F 3 "~" H 17150 8700 50  0001 C CNN
+	1    17150 8700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469A84
+P 18250 9350
+AR Path="/61469A84" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469A84" Ref="RN49"  Part="1" 
+F 0 "RN49" V 18850 9350 50  0000 C CNN
+F 1 "1k" V 18950 9350 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 18525 9350 50  0001 C CNN
+F 3 "~" H 18250 9350 50  0001 C CNN
+	1    18250 9350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469A8A
+P 18250 9750
+AR Path="/61469A8A" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469A8A" Ref="RN53"  Part="1" 
+F 0 "RN53" V 18650 9750 50  0000 C CNN
+F 1 "1k" V 18750 9750 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 18525 9750 50  0001 C CNN
+F 3 "~" H 18250 9750 50  0001 C CNN
+	1    18250 9750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469A90
+P 18250 8500
+AR Path="/61469A90" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469A90" Ref="RN41"  Part="1" 
+F 0 "RN41" V 17600 8500 50  0000 C CNN
+F 1 "1k" V 17700 8500 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 18525 8500 50  0001 C CNN
+F 3 "~" H 18250 8500 50  0001 C CNN
+	1    18250 8500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469A96
+P 18250 8900
+AR Path="/61469A96" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469A96" Ref="RN45"  Part="1" 
+F 0 "RN45" V 17400 8900 50  0000 C CNN
+F 1 "1k" V 17500 8900 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 18525 8900 50  0001 C CNN
+F 3 "~" H 18250 8900 50  0001 C CNN
+	1    18250 8900
+	0    1    1    0   
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 61469A9C
+P 17600 8650
+AR Path="/61469A9C" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/61469A9C" Ref="LEDP20"  Part="1" 
+F 0 "LEDP20" H 17600 9250 50  0000 C CNN
+F 1 "LEDPACK" H 17600 9150 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 17600 9050 50  0001 C CNN
+F 3 "" H 17600 9050 50  0001 C CNN
+	1    17600 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 61469AA2
+P 17150 9450
+AR Path="/61469AA2" Ref="J?"  Part="1" 
+AR Path="/6133367E/61469AA2" Ref="J24"  Part="1" 
+F 0 "J24" H 17000 8950 50  0000 L CNN
+F 1 "PX" H 17000 8850 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 17150 9450 50  0001 C CNN
+F 3 "~" H 17150 9450 50  0001 C CNN
+	1    17150 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61469AE3
+P 18550 9950
+AR Path="/61469AE3" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469AE3" Ref="#PWR0140"  Part="1" 
+F 0 "#PWR0140" H 18550 9700 50  0001 C CNN
+F 1 "GND" H 18555 9777 50  0000 C CNN
+F 2 "" H 18550 9950 50  0001 C CNN
+F 3 "" H 18550 9950 50  0001 C CNN
+	1    18550 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61469B18
+P 16150 10200
+AR Path="/61469B18" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469B18" Ref="#PWR0141"  Part="1" 
+F 0 "#PWR0141" H 16150 9950 50  0001 C CNN
+F 1 "GND" H 16155 10027 50  0000 C CNN
+F 2 "" H 16150 10200 50  0001 C CNN
+F 3 "" H 16150 10200 50  0001 C CNN
+	1    16150 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61469B1F
+P 16550 8000
+AR Path="/61469B1F" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469B1F" Ref="#PWR0142"  Part="1" 
+F 0 "#PWR0142" H 16550 7850 50  0001 C CNN
+F 1 "+5V" H 16565 8173 50  0000 C CNN
+F 2 "" H 16550 8000 50  0001 C CNN
+F 3 "" H 16550 8000 50  0001 C CNN
+	1    16550 8000
+	1    0    0    -1  
+$EndComp
+Text GLabel 15450 8600 0    50   Input ~ 0
+~RST
+Text Label 15300 8300 0    50   ~ 0
+SCL2
+Text Label 15300 8400 0    50   ~ 0
+SDA2
+Entry Wire Line
+	15100 8200 15200 8300
+Entry Wire Line
+	15150 8300 15250 8400
+$Comp
+L super_expander:AW9523B U?
+U 1 1 61469B3F
+P 4750 11800
+AR Path="/61469B3F" Ref="U?"  Part="1" 
+AR Path="/6133367E/61469B3F" Ref="U13"  Part="1" 
+F 0 "U13" H 4750 13031 50  0000 C CNN
+F 1 "AW9523B" H 4750 12940 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias" H 4950 12700 100 0001 C CNN
+F 3 "" H 4950 12700 100 0001 C CNN
+	1    4750 11800
+	1    0    0    -1  
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 61469B45
+P 6200 12250
+AR Path="/61469B45" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/61469B45" Ref="LEDP29"  Part="1" 
+F 0 "LEDP29" H 6200 11800 50  0000 C CNN
+F 1 "LEDPACK" H 6200 11700 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 6200 12650 50  0001 C CNN
+F 3 "" H 6200 12650 50  0001 C CNN
+	1    6200 12250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 61469B4B
+P 5750 11450
+AR Path="/61469B4B" Ref="J?"  Part="1" 
+AR Path="/6133367E/61469B4B" Ref="J25"  Part="1" 
+F 0 "J25" H 5600 10800 50  0000 L CNN
+F 1 "PY" H 5600 10900 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 5750 11450 50  0001 C CNN
+F 3 "~" H 5750 11450 50  0001 C CNN
+	1    5750 11450
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469B51
+P 6850 12100
+AR Path="/61469B51" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469B51" Ref="RN62"  Part="1" 
+F 0 "RN62" V 7450 12100 50  0000 C CNN
+F 1 "1k" V 7550 12100 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7125 12100 50  0001 C CNN
+F 3 "~" H 6850 12100 50  0001 C CNN
+	1    6850 12100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469B57
+P 6850 12500
+AR Path="/61469B57" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469B57" Ref="RN66"  Part="1" 
+F 0 "RN66" V 7250 12500 50  0000 C CNN
+F 1 "1k" V 7350 12500 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7125 12500 50  0001 C CNN
+F 3 "~" H 6850 12500 50  0001 C CNN
+	1    6850 12500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469B5D
+P 6850 11250
+AR Path="/61469B5D" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469B5D" Ref="RN54"  Part="1" 
+F 0 "RN54" V 6200 11250 50  0000 C CNN
+F 1 "1k" V 6300 11250 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7125 11250 50  0001 C CNN
+F 3 "~" H 6850 11250 50  0001 C CNN
+	1    6850 11250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469B63
+P 6850 11650
+AR Path="/61469B63" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469B63" Ref="RN58"  Part="1" 
+F 0 "RN58" V 6000 11650 50  0000 C CNN
+F 1 "1k" V 6100 11650 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7125 11650 50  0001 C CNN
+F 3 "~" H 6850 11650 50  0001 C CNN
+	1    6850 11650
+	0    1    1    0   
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 61469B69
+P 6200 11400
+AR Path="/61469B69" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/61469B69" Ref="LEDP25"  Part="1" 
+F 0 "LEDP25" H 6200 12000 50  0000 C CNN
+F 1 "LEDPACK" H 6200 11900 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 6200 11800 50  0001 C CNN
+F 3 "" H 6200 11800 50  0001 C CNN
+	1    6200 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 61469B6F
+P 5750 12200
+AR Path="/61469B6F" Ref="J?"  Part="1" 
+AR Path="/6133367E/61469B6F" Ref="J29"  Part="1" 
+F 0 "J29" H 5600 11700 50  0000 L CNN
+F 1 "PZ" H 5600 11600 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 5750 12200 50  0001 C CNN
+F 3 "~" H 5750 12200 50  0001 C CNN
+	1    5750 12200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61469BB5
+P 7150 12700
+AR Path="/61469BB5" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469BB5" Ref="#PWR0143"  Part="1" 
+F 0 "#PWR0143" H 7150 12450 50  0001 C CNN
+F 1 "GND" H 7155 12527 50  0000 C CNN
+F 2 "" H 7150 12700 50  0001 C CNN
+F 3 "" H 7150 12700 50  0001 C CNN
+	1    7150 12700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61469BEA
+P 4750 12950
+AR Path="/61469BEA" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469BEA" Ref="#PWR0144"  Part="1" 
+F 0 "#PWR0144" H 4750 12700 50  0001 C CNN
+F 1 "GND" H 4755 12777 50  0000 C CNN
+F 2 "" H 4750 12950 50  0001 C CNN
+F 3 "" H 4750 12950 50  0001 C CNN
+	1    4750 12950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61469BF1
+P 5150 10750
+AR Path="/61469BF1" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469BF1" Ref="#PWR0145"  Part="1" 
+F 0 "#PWR0145" H 5150 10600 50  0001 C CNN
+F 1 "+5V" H 5165 10923 50  0000 C CNN
+F 2 "" H 5150 10750 50  0001 C CNN
+F 3 "" H 5150 10750 50  0001 C CNN
+	1    5150 10750
+	1    0    0    -1  
+$EndComp
+Text GLabel 4050 11350 0    50   Input ~ 0
+~RST
+Text Label 3900 11050 0    50   ~ 0
+SCL3
+Text Label 3900 11150 0    50   ~ 0
+SDA3
+Entry Wire Line
+	3700 10950 3800 11050
+Entry Wire Line
+	3750 11050 3850 11150
+$Comp
+L super_expander:AW9523B U?
+U 1 1 61469C0C
+P 8550 11800
+AR Path="/61469C0C" Ref="U?"  Part="1" 
+AR Path="/6133367E/61469C0C" Ref="U14"  Part="1" 
+F 0 "U14" H 8550 13031 50  0000 C CNN
+F 1 "AW9523B" H 8550 12940 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias" H 8750 12700 100 0001 C CNN
+F 3 "" H 8750 12700 100 0001 C CNN
+	1    8550 11800
+	1    0    0    -1  
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 61469C12
+P 10000 12250
+AR Path="/61469C12" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/61469C12" Ref="LEDP30"  Part="1" 
+F 0 "LEDP30" H 10000 11800 50  0000 C CNN
+F 1 "LEDPACK" H 10000 11700 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 10000 12650 50  0001 C CNN
+F 3 "" H 10000 12650 50  0001 C CNN
+	1    10000 12250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 61469C18
+P 9550 11450
+AR Path="/61469C18" Ref="J?"  Part="1" 
+AR Path="/6133367E/61469C18" Ref="J26"  Part="1" 
+F 0 "J26" H 9400 10800 50  0000 L CNN
+F 1 "PAA" H 9400 10900 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 9550 11450 50  0001 C CNN
+F 3 "~" H 9550 11450 50  0001 C CNN
+	1    9550 11450
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469C1E
+P 10650 12100
+AR Path="/61469C1E" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469C1E" Ref="RN63"  Part="1" 
+F 0 "RN63" V 11250 12100 50  0000 C CNN
+F 1 "1k" V 11350 12100 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 10925 12100 50  0001 C CNN
+F 3 "~" H 10650 12100 50  0001 C CNN
+	1    10650 12100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469C24
+P 10650 12500
+AR Path="/61469C24" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469C24" Ref="RN67"  Part="1" 
+F 0 "RN67" V 11050 12500 50  0000 C CNN
+F 1 "1k" V 11150 12500 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 10925 12500 50  0001 C CNN
+F 3 "~" H 10650 12500 50  0001 C CNN
+	1    10650 12500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469C2A
+P 10650 11250
+AR Path="/61469C2A" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469C2A" Ref="RN55"  Part="1" 
+F 0 "RN55" V 10000 11250 50  0000 C CNN
+F 1 "1k" V 10100 11250 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 10925 11250 50  0001 C CNN
+F 3 "~" H 10650 11250 50  0001 C CNN
+	1    10650 11250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469C30
+P 10650 11650
+AR Path="/61469C30" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469C30" Ref="RN59"  Part="1" 
+F 0 "RN59" V 9800 11650 50  0000 C CNN
+F 1 "1k" V 9900 11650 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 10925 11650 50  0001 C CNN
+F 3 "~" H 10650 11650 50  0001 C CNN
+	1    10650 11650
+	0    1    1    0   
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 61469C36
+P 10000 11400
+AR Path="/61469C36" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/61469C36" Ref="LEDP26"  Part="1" 
+F 0 "LEDP26" H 10000 12000 50  0000 C CNN
+F 1 "LEDPACK" H 10000 11900 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 10000 11800 50  0001 C CNN
+F 3 "" H 10000 11800 50  0001 C CNN
+	1    10000 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 61469C3C
+P 9550 12200
+AR Path="/61469C3C" Ref="J?"  Part="1" 
+AR Path="/6133367E/61469C3C" Ref="J30"  Part="1" 
+F 0 "J30" H 9400 11700 50  0000 L CNN
+F 1 "PAB" H 9400 11600 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 9550 12200 50  0001 C CNN
+F 3 "~" H 9550 12200 50  0001 C CNN
+	1    9550 12200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61469C7D
+P 10950 12700
+AR Path="/61469C7D" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469C7D" Ref="#PWR0146"  Part="1" 
+F 0 "#PWR0146" H 10950 12450 50  0001 C CNN
+F 1 "GND" H 10955 12527 50  0000 C CNN
+F 2 "" H 10950 12700 50  0001 C CNN
+F 3 "" H 10950 12700 50  0001 C CNN
+	1    10950 12700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61469CB2
+P 8550 12950
+AR Path="/61469CB2" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469CB2" Ref="#PWR0147"  Part="1" 
+F 0 "#PWR0147" H 8550 12700 50  0001 C CNN
+F 1 "GND" H 8555 12777 50  0000 C CNN
+F 2 "" H 8550 12950 50  0001 C CNN
+F 3 "" H 8550 12950 50  0001 C CNN
+	1    8550 12950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61469CB9
+P 8950 10750
+AR Path="/61469CB9" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469CB9" Ref="#PWR0148"  Part="1" 
+F 0 "#PWR0148" H 8950 10600 50  0001 C CNN
+F 1 "+5V" H 8965 10923 50  0000 C CNN
+F 2 "" H 8950 10750 50  0001 C CNN
+F 3 "" H 8950 10750 50  0001 C CNN
+	1    8950 10750
+	1    0    0    -1  
+$EndComp
+Text GLabel 7850 11350 0    50   Input ~ 0
+~RST
+Text Label 7700 11050 0    50   ~ 0
+SCL3
+Text Label 7700 11150 0    50   ~ 0
+SDA3
+Entry Wire Line
+	7500 10950 7600 11050
+Entry Wire Line
+	7550 11050 7650 11150
+$Comp
+L super_expander:AW9523B U?
+U 1 1 61469CD9
+P 12350 11850
+AR Path="/61469CD9" Ref="U?"  Part="1" 
+AR Path="/6133367E/61469CD9" Ref="U15"  Part="1" 
+F 0 "U15" H 12350 13081 50  0000 C CNN
+F 1 "AW9523B" H 12350 12990 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias" H 12550 12750 100 0001 C CNN
+F 3 "" H 12550 12750 100 0001 C CNN
+	1    12350 11850
+	1    0    0    -1  
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 61469CDF
+P 13800 12300
+AR Path="/61469CDF" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/61469CDF" Ref="LEDP31"  Part="1" 
+F 0 "LEDP31" H 13800 11850 50  0000 C CNN
+F 1 "LEDPACK" H 13800 11750 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 13800 12700 50  0001 C CNN
+F 3 "" H 13800 12700 50  0001 C CNN
+	1    13800 12300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 61469CE5
+P 13350 11500
+AR Path="/61469CE5" Ref="J?"  Part="1" 
+AR Path="/6133367E/61469CE5" Ref="J27"  Part="1" 
+F 0 "J27" H 13200 10850 50  0000 L CNN
+F 1 "PAC" H 13200 10950 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 13350 11500 50  0001 C CNN
+F 3 "~" H 13350 11500 50  0001 C CNN
+	1    13350 11500
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469CEB
+P 14450 12150
+AR Path="/61469CEB" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469CEB" Ref="RN64"  Part="1" 
+F 0 "RN64" V 15050 12150 50  0000 C CNN
+F 1 "1k" V 15150 12150 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 14725 12150 50  0001 C CNN
+F 3 "~" H 14450 12150 50  0001 C CNN
+	1    14450 12150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469CF1
+P 14450 12550
+AR Path="/61469CF1" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469CF1" Ref="RN68"  Part="1" 
+F 0 "RN68" V 14850 12550 50  0000 C CNN
+F 1 "1k" V 14950 12550 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 14725 12550 50  0001 C CNN
+F 3 "~" H 14450 12550 50  0001 C CNN
+	1    14450 12550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469CF7
+P 14450 11300
+AR Path="/61469CF7" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469CF7" Ref="RN56"  Part="1" 
+F 0 "RN56" V 13800 11300 50  0000 C CNN
+F 1 "1k" V 13900 11300 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 14725 11300 50  0001 C CNN
+F 3 "~" H 14450 11300 50  0001 C CNN
+	1    14450 11300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469CFD
+P 14450 11700
+AR Path="/61469CFD" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469CFD" Ref="RN60"  Part="1" 
+F 0 "RN60" V 13600 11700 50  0000 C CNN
+F 1 "1k" V 13700 11700 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 14725 11700 50  0001 C CNN
+F 3 "~" H 14450 11700 50  0001 C CNN
+	1    14450 11700
+	0    1    1    0   
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 61469D03
+P 13800 11450
+AR Path="/61469D03" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/61469D03" Ref="LEDP27"  Part="1" 
+F 0 "LEDP27" H 13800 12050 50  0000 C CNN
+F 1 "LEDPACK" H 13800 11950 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 13800 11850 50  0001 C CNN
+F 3 "" H 13800 11850 50  0001 C CNN
+	1    13800 11450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 61469D09
+P 13350 12250
+AR Path="/61469D09" Ref="J?"  Part="1" 
+AR Path="/6133367E/61469D09" Ref="J31"  Part="1" 
+F 0 "J31" H 13200 11750 50  0000 L CNN
+F 1 "PAD" H 13200 11650 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 13350 12250 50  0001 C CNN
+F 3 "~" H 13350 12250 50  0001 C CNN
+	1    13350 12250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61469D4F
+P 14750 12750
+AR Path="/61469D4F" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469D4F" Ref="#PWR0149"  Part="1" 
+F 0 "#PWR0149" H 14750 12500 50  0001 C CNN
+F 1 "GND" H 14755 12577 50  0000 C CNN
+F 2 "" H 14750 12750 50  0001 C CNN
+F 3 "" H 14750 12750 50  0001 C CNN
+	1    14750 12750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61469D84
+P 12350 13000
+AR Path="/61469D84" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469D84" Ref="#PWR0150"  Part="1" 
+F 0 "#PWR0150" H 12350 12750 50  0001 C CNN
+F 1 "GND" H 12355 12827 50  0000 C CNN
+F 2 "" H 12350 13000 50  0001 C CNN
+F 3 "" H 12350 13000 50  0001 C CNN
+	1    12350 13000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61469D8B
+P 12750 10800
+AR Path="/61469D8B" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469D8B" Ref="#PWR0151"  Part="1" 
+F 0 "#PWR0151" H 12750 10650 50  0001 C CNN
+F 1 "+5V" H 12765 10973 50  0000 C CNN
+F 2 "" H 12750 10800 50  0001 C CNN
+F 3 "" H 12750 10800 50  0001 C CNN
+	1    12750 10800
+	1    0    0    -1  
+$EndComp
+Text GLabel 11650 11400 0    50   Input ~ 0
+~RST
+Text Label 11500 11100 0    50   ~ 0
+SCL3
+Text Label 11500 11200 0    50   ~ 0
+SDA3
+Entry Wire Line
+	11300 11000 11400 11100
+Entry Wire Line
+	11350 11100 11450 11200
+$Comp
+L super_expander:AW9523B U?
+U 1 1 61469DA6
+P 16150 11850
+AR Path="/61469DA6" Ref="U?"  Part="1" 
+AR Path="/6133367E/61469DA6" Ref="U16"  Part="1" 
+F 0 "U16" H 16150 13081 50  0000 C CNN
+F 1 "AW9523B" H 16150 12990 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias" H 16350 12750 100 0001 C CNN
+F 3 "" H 16350 12750 100 0001 C CNN
+	1    16150 11850
+	1    0    0    -1  
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 61469DAC
+P 17600 12300
+AR Path="/61469DAC" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/61469DAC" Ref="LEDP32"  Part="1" 
+F 0 "LEDP32" H 17600 11850 50  0000 C CNN
+F 1 "LEDPACK" H 17600 11750 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 17600 12700 50  0001 C CNN
+F 3 "" H 17600 12700 50  0001 C CNN
+	1    17600 12300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 61469DB2
+P 17150 11500
+AR Path="/61469DB2" Ref="J?"  Part="1" 
+AR Path="/6133367E/61469DB2" Ref="J28"  Part="1" 
+F 0 "J28" H 17000 10850 50  0000 L CNN
+F 1 "PAE" H 17000 10950 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 17150 11500 50  0001 C CNN
+F 3 "~" H 17150 11500 50  0001 C CNN
+	1    17150 11500
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469DB8
+P 18250 12150
+AR Path="/61469DB8" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469DB8" Ref="RN65"  Part="1" 
+F 0 "RN65" V 18850 12150 50  0000 C CNN
+F 1 "1k" V 18950 12150 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 18525 12150 50  0001 C CNN
+F 3 "~" H 18250 12150 50  0001 C CNN
+	1    18250 12150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469DBE
+P 18250 12550
+AR Path="/61469DBE" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469DBE" Ref="RN69"  Part="1" 
+F 0 "RN69" V 18650 12550 50  0000 C CNN
+F 1 "1k" V 18750 12550 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 18525 12550 50  0001 C CNN
+F 3 "~" H 18250 12550 50  0001 C CNN
+	1    18250 12550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469DC4
+P 18250 11300
+AR Path="/61469DC4" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469DC4" Ref="RN57"  Part="1" 
+F 0 "RN57" V 17600 11300 50  0000 C CNN
+F 1 "1k" V 17700 11300 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 18525 11300 50  0001 C CNN
+F 3 "~" H 18250 11300 50  0001 C CNN
+	1    18250 11300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 61469DCA
+P 18250 11700
+AR Path="/61469DCA" Ref="RN?"  Part="1" 
+AR Path="/6133367E/61469DCA" Ref="RN61"  Part="1" 
+F 0 "RN61" V 17400 11700 50  0000 C CNN
+F 1 "1k" V 17500 11700 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 18525 11700 50  0001 C CNN
+F 3 "~" H 18250 11700 50  0001 C CNN
+	1    18250 11700
+	0    1    1    0   
+$EndComp
+$Comp
+L super_expander:LEDPACK LEDP?
+U 1 1 61469DD0
+P 17600 11450
+AR Path="/61469DD0" Ref="LEDP?"  Part="1" 
+AR Path="/6133367E/61469DD0" Ref="LEDP28"  Part="1" 
+F 0 "LEDP28" H 17600 12050 50  0000 C CNN
+F 1 "LEDPACK" H 17600 11950 50  0000 C CNN
+F 2 "super_expander:LED_PACK_8" H 17600 11850 50  0001 C CNN
+F 3 "" H 17600 11850 50  0001 C CNN
+	1    17600 11450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 61469DD6
+P 17150 12250
+AR Path="/61469DD6" Ref="J?"  Part="1" 
+AR Path="/6133367E/61469DD6" Ref="J32"  Part="1" 
+F 0 "J32" H 17000 11750 50  0000 L CNN
+F 1 "PAF" H 17000 11650 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 17150 12250 50  0001 C CNN
+F 3 "~" H 17150 12250 50  0001 C CNN
+	1    17150 12250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61469E17
+P 18550 12750
+AR Path="/61469E17" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469E17" Ref="#PWR0152"  Part="1" 
+F 0 "#PWR0152" H 18550 12500 50  0001 C CNN
+F 1 "GND" H 18555 12577 50  0000 C CNN
+F 2 "" H 18550 12750 50  0001 C CNN
+F 3 "" H 18550 12750 50  0001 C CNN
+	1    18550 12750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61469E4C
+P 16150 13000
+AR Path="/61469E4C" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469E4C" Ref="#PWR0153"  Part="1" 
+F 0 "#PWR0153" H 16150 12750 50  0001 C CNN
+F 1 "GND" H 16155 12827 50  0000 C CNN
+F 2 "" H 16150 13000 50  0001 C CNN
+F 3 "" H 16150 13000 50  0001 C CNN
+	1    16150 13000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61469E53
+P 16550 10800
+AR Path="/61469E53" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/61469E53" Ref="#PWR0154"  Part="1" 
+F 0 "#PWR0154" H 16550 10650 50  0001 C CNN
+F 1 "+5V" H 16565 10973 50  0000 C CNN
+F 2 "" H 16550 10800 50  0001 C CNN
+F 3 "" H 16550 10800 50  0001 C CNN
+	1    16550 10800
+	1    0    0    -1  
+$EndComp
+Text GLabel 15450 11400 0    50   Input ~ 0
+~RST
+Text Label 15300 11100 0    50   ~ 0
+SCL3
+Text Label 15300 11200 0    50   ~ 0
+SDA3
+Entry Wire Line
+	15100 11000 15200 11100
+Entry Wire Line
+	15150 11100 15250 11200
+Text HLabel 3100 1550 0    50   BiDi ~ 0
+SCL[0..7]
+Wire Wire Line
+	5350 2650 5550 2650
+Wire Wire Line
+	5350 2750 5550 2750
+Wire Wire Line
+	5350 2850 5550 2850
+Wire Wire Line
+	5350 2950 5550 2950
+Wire Wire Line
+	5350 3050 5550 3050
+Wire Wire Line
+	5350 3150 5550 3150
+Wire Wire Line
+	5350 3250 5550 3250
+Wire Wire Line
+	5350 3350 5550 3350
+Wire Wire Line
+	5350 3500 5550 3500
+Wire Wire Line
+	5350 3600 5550 3600
+Wire Wire Line
+	5350 3700 5550 3700
+Wire Wire Line
+	5350 3800 5550 3800
+Wire Wire Line
+	5350 3900 5550 3900
+Wire Wire Line
+	5350 4000 5550 4000
+Wire Wire Line
+	5350 4100 5550 4100
+Wire Wire Line
+	5350 4200 5550 4200
+Wire Wire Line
+	5550 2650 5900 2650
+Connection ~ 5550 2650
+Wire Wire Line
+	5550 2750 5900 2750
+Connection ~ 5550 2750
+Wire Wire Line
+	5550 2850 5900 2850
+Connection ~ 5550 2850
+Wire Wire Line
+	5550 2950 5900 2950
+Connection ~ 5550 2950
+Wire Wire Line
+	5550 3050 5900 3050
+Connection ~ 5550 3050
+Wire Wire Line
+	5550 3150 5900 3150
+Connection ~ 5550 3150
+Wire Wire Line
+	5550 3250 5900 3250
+Connection ~ 5550 3250
+Wire Wire Line
+	5550 3350 5900 3350
+Connection ~ 5550 3350
+Wire Wire Line
+	5550 3500 5900 3500
+Connection ~ 5550 3500
+Wire Wire Line
+	5550 3600 5900 3600
+Connection ~ 5550 3600
+Wire Wire Line
+	5550 3700 5900 3700
+Connection ~ 5550 3700
+Wire Wire Line
+	5550 3800 5900 3800
+Connection ~ 5550 3800
+Wire Wire Line
+	5550 3900 5900 3900
+Connection ~ 5550 3900
+Wire Wire Line
+	5550 4000 5900 4000
+Connection ~ 5550 4000
+Wire Wire Line
+	5550 4100 5900 4100
+Connection ~ 5550 4100
+Wire Wire Line
+	5550 4200 5900 4200
+Connection ~ 5550 4200
+Wire Wire Line
+	6500 2650 6650 2650
+Wire Wire Line
+	6500 2750 6650 2750
+Wire Wire Line
+	6500 2850 6650 2850
+Wire Wire Line
+	6500 2950 6650 2950
+Wire Wire Line
+	6500 3050 6650 3050
+Wire Wire Line
+	6500 3150 6650 3150
+Wire Wire Line
+	6500 3250 6650 3250
+Wire Wire Line
+	6500 3350 6650 3350
+Wire Wire Line
+	6500 3500 6650 3500
+Wire Wire Line
+	6500 3600 6650 3600
+Wire Wire Line
+	6500 3700 6650 3700
+Wire Wire Line
+	6500 3800 6650 3800
+Wire Wire Line
+	6500 3900 6650 3900
+Wire Wire Line
+	6500 4000 6650 4000
+Wire Wire Line
+	6500 4100 6650 4100
+Wire Wire Line
+	6500 4200 6650 4200
+Wire Wire Line
+	7050 2650 7150 2650
+Wire Wire Line
+	7150 2650 7150 2750
+Wire Wire Line
+	7050 2750 7150 2750
+Connection ~ 7150 2750
+Wire Wire Line
+	7150 2750 7150 2850
+Wire Wire Line
+	7050 2850 7150 2850
+Connection ~ 7150 2850
+Wire Wire Line
+	7150 2850 7150 2950
+Wire Wire Line
+	7050 2950 7150 2950
+Connection ~ 7150 2950
+Wire Wire Line
+	7150 2950 7150 3050
+Wire Wire Line
+	7050 3050 7150 3050
+Connection ~ 7150 3050
+Wire Wire Line
+	7150 3050 7150 3150
+Wire Wire Line
+	7050 3150 7150 3150
+Connection ~ 7150 3150
+Wire Wire Line
+	7150 3150 7150 3250
+Wire Wire Line
+	7050 3250 7150 3250
+Connection ~ 7150 3250
+Wire Wire Line
+	7150 3250 7150 3350
+Wire Wire Line
+	7050 3350 7150 3350
+Connection ~ 7150 3350
+Wire Wire Line
+	7150 3350 7150 3500
+Wire Wire Line
+	7050 3500 7150 3500
+Connection ~ 7150 3500
+Wire Wire Line
+	7150 3500 7150 3600
+Wire Wire Line
+	7050 3600 7150 3600
+Connection ~ 7150 3600
+Wire Wire Line
+	7150 3600 7150 3700
+Wire Wire Line
+	7050 3700 7150 3700
+Connection ~ 7150 3700
+Wire Wire Line
+	7150 3700 7150 3800
+Wire Wire Line
+	7050 3800 7150 3800
+Connection ~ 7150 3800
+Wire Wire Line
+	7150 3800 7150 3900
+Wire Wire Line
+	7050 3900 7150 3900
+Connection ~ 7150 3900
+Wire Wire Line
+	7150 3900 7150 4000
+Wire Wire Line
+	7050 4000 7150 4000
+Connection ~ 7150 4000
+Wire Wire Line
+	7150 4000 7150 4100
+Wire Wire Line
+	7050 4100 7150 4100
+Connection ~ 7150 4100
+Wire Wire Line
+	7150 4100 7150 4200
+Wire Wire Line
+	7050 4200 7150 4200
+Connection ~ 7150 4200
+Wire Wire Line
+	7150 4200 7150 4300
+Wire Wire Line
+	4750 4500 4750 4550
+Wire Wire Line
+	4750 2350 5150 2350
+Wire Wire Line
+	4150 2950 4050 2950
+Wire Wire Line
+	4150 2750 3850 2750
+Wire Wire Line
+	9150 2650 9350 2650
+Wire Wire Line
+	9150 2750 9350 2750
+Wire Wire Line
+	9150 2850 9350 2850
+Wire Wire Line
+	9150 2950 9350 2950
+Wire Wire Line
+	9150 3050 9350 3050
+Wire Wire Line
+	9150 3150 9350 3150
+Wire Wire Line
+	9150 3250 9350 3250
+Wire Wire Line
+	9150 3350 9350 3350
+Wire Wire Line
+	9150 3500 9350 3500
+Wire Wire Line
+	9150 3600 9350 3600
+Wire Wire Line
+	9150 3700 9350 3700
+Wire Wire Line
+	9150 3800 9350 3800
+Wire Wire Line
+	9150 3900 9350 3900
+Wire Wire Line
+	9150 4000 9350 4000
+Wire Wire Line
+	9150 4100 9350 4100
+Wire Wire Line
+	9150 4200 9350 4200
+Wire Wire Line
+	9350 2650 9700 2650
+Connection ~ 9350 2650
+Wire Wire Line
+	9350 2750 9700 2750
+Connection ~ 9350 2750
+Wire Wire Line
+	9350 2850 9700 2850
+Connection ~ 9350 2850
+Wire Wire Line
+	9350 2950 9700 2950
+Connection ~ 9350 2950
+Wire Wire Line
+	9350 3050 9700 3050
+Connection ~ 9350 3050
+Wire Wire Line
+	9350 3150 9700 3150
+Connection ~ 9350 3150
+Wire Wire Line
+	9350 3250 9700 3250
+Connection ~ 9350 3250
+Wire Wire Line
+	9350 3350 9700 3350
+Connection ~ 9350 3350
+Wire Wire Line
+	9350 3500 9700 3500
+Connection ~ 9350 3500
+Wire Wire Line
+	9350 3600 9700 3600
+Connection ~ 9350 3600
+Wire Wire Line
+	9350 3700 9700 3700
+Connection ~ 9350 3700
+Wire Wire Line
+	9350 3800 9700 3800
+Connection ~ 9350 3800
+Wire Wire Line
+	9350 3900 9700 3900
+Connection ~ 9350 3900
+Wire Wire Line
+	9350 4000 9700 4000
+Connection ~ 9350 4000
+Wire Wire Line
+	9350 4100 9700 4100
+Connection ~ 9350 4100
+Wire Wire Line
+	9350 4200 9700 4200
+Connection ~ 9350 4200
+Wire Wire Line
+	10300 2950 10450 2950
+Wire Wire Line
+	10300 3250 10450 3250
+Wire Wire Line
+	10300 3350 10450 3350
+Wire Wire Line
+	10300 3500 10450 3500
+Wire Wire Line
+	10300 3600 10450 3600
+Wire Wire Line
+	10300 3700 10450 3700
+Wire Wire Line
+	10300 3800 10450 3800
+Wire Wire Line
+	10300 3900 10450 3900
+Wire Wire Line
+	10300 4000 10450 4000
+Wire Wire Line
+	10300 4100 10450 4100
+Wire Wire Line
+	10300 4200 10450 4200
+Wire Wire Line
+	10850 2650 10950 2650
+Wire Wire Line
+	10950 2650 10950 2750
+Wire Wire Line
+	10850 2750 10950 2750
+Connection ~ 10950 2750
+Wire Wire Line
+	10950 2750 10950 2850
+Wire Wire Line
+	10850 2850 10950 2850
+Connection ~ 10950 2850
+Wire Wire Line
+	10950 2850 10950 2950
+Wire Wire Line
+	10850 2950 10950 2950
+Connection ~ 10950 2950
+Wire Wire Line
+	10950 2950 10950 3050
+Wire Wire Line
+	10850 3050 10950 3050
+Connection ~ 10950 3050
+Wire Wire Line
+	10950 3050 10950 3150
+Wire Wire Line
+	10850 3150 10950 3150
+Connection ~ 10950 3150
+Wire Wire Line
+	10950 3150 10950 3250
+Wire Wire Line
+	10850 3250 10950 3250
+Connection ~ 10950 3250
+Wire Wire Line
+	10950 3250 10950 3350
+Wire Wire Line
+	10850 3350 10950 3350
+Connection ~ 10950 3350
+Wire Wire Line
+	10950 3350 10950 3500
+Wire Wire Line
+	10850 3500 10950 3500
+Connection ~ 10950 3500
+Wire Wire Line
+	10950 3500 10950 3600
+Wire Wire Line
+	10850 3600 10950 3600
+Connection ~ 10950 3600
+Wire Wire Line
+	10950 3600 10950 3700
+Wire Wire Line
+	10850 3700 10950 3700
+Connection ~ 10950 3700
+Wire Wire Line
+	10950 3700 10950 3800
+Wire Wire Line
+	10850 3800 10950 3800
+Connection ~ 10950 3800
+Wire Wire Line
+	10950 3800 10950 3900
+Wire Wire Line
+	10850 3900 10950 3900
+Connection ~ 10950 3900
+Wire Wire Line
+	10950 3900 10950 4000
+Wire Wire Line
+	10850 4000 10950 4000
+Connection ~ 10950 4000
+Wire Wire Line
+	10950 4000 10950 4100
+Wire Wire Line
+	10850 4100 10950 4100
+Connection ~ 10950 4100
+Wire Wire Line
+	10950 4100 10950 4200
+Wire Wire Line
+	10850 4200 10950 4200
+Connection ~ 10950 4200
+Wire Wire Line
+	10950 4200 10950 4300
+Wire Wire Line
+	8550 4500 8550 4550
+Wire Wire Line
+	8550 2350 8950 2350
+Wire Wire Line
+	7950 2950 7850 2950
+Wire Wire Line
+	7950 2750 7650 2750
+Wire Wire Line
+	10300 3150 10450 3150
+Wire Wire Line
+	10300 3050 10450 3050
+Wire Wire Line
+	10300 2850 10450 2850
+Wire Wire Line
+	10300 2750 10450 2750
+Wire Wire Line
+	10300 2650 10450 2650
+Wire Wire Line
+	12950 2700 13150 2700
+Wire Wire Line
+	12950 2800 13150 2800
+Wire Wire Line
+	12950 2900 13150 2900
+Wire Wire Line
+	12950 3000 13150 3000
+Wire Wire Line
+	12950 3100 13150 3100
+Wire Wire Line
+	12950 3200 13150 3200
+Wire Wire Line
+	12950 3300 13150 3300
+Wire Wire Line
+	12950 3400 13150 3400
+Wire Wire Line
+	12950 3550 13150 3550
+Wire Wire Line
+	12950 3650 13150 3650
+Wire Wire Line
+	12950 3750 13150 3750
+Wire Wire Line
+	12950 3850 13150 3850
+Wire Wire Line
+	12950 3950 13150 3950
+Wire Wire Line
+	12950 4050 13150 4050
+Wire Wire Line
+	12950 4150 13150 4150
+Wire Wire Line
+	12950 4250 13150 4250
+Wire Wire Line
+	13150 2700 13500 2700
+Connection ~ 13150 2700
+Wire Wire Line
+	13150 2800 13500 2800
+Connection ~ 13150 2800
+Wire Wire Line
+	13150 2900 13500 2900
+Connection ~ 13150 2900
+Wire Wire Line
+	13150 3000 13500 3000
+Connection ~ 13150 3000
+Wire Wire Line
+	13150 3100 13500 3100
+Connection ~ 13150 3100
+Wire Wire Line
+	13150 3200 13500 3200
+Connection ~ 13150 3200
+Wire Wire Line
+	13150 3300 13500 3300
+Connection ~ 13150 3300
+Wire Wire Line
+	13150 3400 13500 3400
+Connection ~ 13150 3400
+Wire Wire Line
+	13150 3550 13500 3550
+Connection ~ 13150 3550
+Wire Wire Line
+	13150 3650 13500 3650
+Connection ~ 13150 3650
+Wire Wire Line
+	13150 3750 13500 3750
+Connection ~ 13150 3750
+Wire Wire Line
+	13150 3850 13500 3850
+Connection ~ 13150 3850
+Wire Wire Line
+	13150 3950 13500 3950
+Connection ~ 13150 3950
+Wire Wire Line
+	13150 4050 13500 4050
+Connection ~ 13150 4050
+Wire Wire Line
+	13150 4150 13500 4150
+Connection ~ 13150 4150
+Wire Wire Line
+	13150 4250 13500 4250
+Connection ~ 13150 4250
+Wire Wire Line
+	14100 2700 14250 2700
+Wire Wire Line
+	14100 2800 14250 2800
+Wire Wire Line
+	14100 2900 14250 2900
+Wire Wire Line
+	14100 3000 14250 3000
+Wire Wire Line
+	14100 3100 14250 3100
+Wire Wire Line
+	14100 3200 14250 3200
+Wire Wire Line
+	14100 3300 14250 3300
+Wire Wire Line
+	14100 3400 14250 3400
+Wire Wire Line
+	14100 3550 14250 3550
+Wire Wire Line
+	14100 3650 14250 3650
+Wire Wire Line
+	14100 3750 14250 3750
+Wire Wire Line
+	14100 3850 14250 3850
+Wire Wire Line
+	14100 3950 14250 3950
+Wire Wire Line
+	14100 4050 14250 4050
+Wire Wire Line
+	14100 4150 14250 4150
+Wire Wire Line
+	14100 4250 14250 4250
+Wire Wire Line
+	14650 2700 14750 2700
+Wire Wire Line
+	14750 2700 14750 2800
+Wire Wire Line
+	14650 2800 14750 2800
+Connection ~ 14750 2800
+Wire Wire Line
+	14750 2800 14750 2900
+Wire Wire Line
+	14650 2900 14750 2900
+Connection ~ 14750 2900
+Wire Wire Line
+	14750 2900 14750 3000
+Wire Wire Line
+	14650 3000 14750 3000
+Connection ~ 14750 3000
+Wire Wire Line
+	14750 3000 14750 3100
+Wire Wire Line
+	14650 3100 14750 3100
+Connection ~ 14750 3100
+Wire Wire Line
+	14750 3100 14750 3200
+Wire Wire Line
+	14650 3200 14750 3200
+Connection ~ 14750 3200
+Wire Wire Line
+	14750 3200 14750 3300
+Wire Wire Line
+	14650 3300 14750 3300
+Connection ~ 14750 3300
+Wire Wire Line
+	14750 3300 14750 3400
+Wire Wire Line
+	14650 3400 14750 3400
+Connection ~ 14750 3400
+Wire Wire Line
+	14750 3400 14750 3550
+Wire Wire Line
+	14650 3550 14750 3550
+Connection ~ 14750 3550
+Wire Wire Line
+	14750 3550 14750 3650
+Wire Wire Line
+	14650 3650 14750 3650
+Connection ~ 14750 3650
+Wire Wire Line
+	14750 3650 14750 3750
+Wire Wire Line
+	14650 3750 14750 3750
+Connection ~ 14750 3750
+Wire Wire Line
+	14750 3750 14750 3850
+Wire Wire Line
+	14650 3850 14750 3850
+Connection ~ 14750 3850
+Wire Wire Line
+	14750 3850 14750 3950
+Wire Wire Line
+	14650 3950 14750 3950
+Connection ~ 14750 3950
+Wire Wire Line
+	14750 3950 14750 4050
+Wire Wire Line
+	14650 4050 14750 4050
+Connection ~ 14750 4050
+Wire Wire Line
+	14750 4050 14750 4150
+Wire Wire Line
+	14650 4150 14750 4150
+Connection ~ 14750 4150
+Wire Wire Line
+	14750 4150 14750 4250
+Wire Wire Line
+	14650 4250 14750 4250
+Connection ~ 14750 4250
+Wire Wire Line
+	14750 4250 14750 4350
+Wire Wire Line
+	12350 4550 12350 4600
+Wire Wire Line
+	12350 2400 12750 2400
+Wire Wire Line
+	11750 3000 11650 3000
+Wire Wire Line
+	11750 2800 11450 2800
+Wire Wire Line
+	16750 2700 16950 2700
+Wire Wire Line
+	16750 2800 16950 2800
+Wire Wire Line
+	16750 2900 16950 2900
+Wire Wire Line
+	16750 3000 16950 3000
+Wire Wire Line
+	16750 3100 16950 3100
+Wire Wire Line
+	16750 3200 16950 3200
+Wire Wire Line
+	16750 3300 16950 3300
+Wire Wire Line
+	16750 3400 16950 3400
+Wire Wire Line
+	16750 3550 16950 3550
+Wire Wire Line
+	16750 3650 16950 3650
+Wire Wire Line
+	16750 3750 16950 3750
+Wire Wire Line
+	16750 3850 16950 3850
+Wire Wire Line
+	16750 3950 16950 3950
+Wire Wire Line
+	16750 4050 16950 4050
+Wire Wire Line
+	16750 4150 16950 4150
+Wire Wire Line
+	16750 4250 16950 4250
+Wire Wire Line
+	16950 2700 17300 2700
+Connection ~ 16950 2700
+Wire Wire Line
+	16950 2800 17300 2800
+Connection ~ 16950 2800
+Wire Wire Line
+	16950 2900 17300 2900
+Connection ~ 16950 2900
+Wire Wire Line
+	16950 3000 17300 3000
+Connection ~ 16950 3000
+Wire Wire Line
+	16950 3100 17300 3100
+Connection ~ 16950 3100
+Wire Wire Line
+	16950 3200 17300 3200
+Connection ~ 16950 3200
+Wire Wire Line
+	16950 3300 17300 3300
+Connection ~ 16950 3300
+Wire Wire Line
+	16950 3400 17300 3400
+Connection ~ 16950 3400
+Wire Wire Line
+	16950 3550 17300 3550
+Connection ~ 16950 3550
+Wire Wire Line
+	16950 3650 17300 3650
+Connection ~ 16950 3650
+Wire Wire Line
+	16950 3750 17300 3750
+Connection ~ 16950 3750
+Wire Wire Line
+	16950 3850 17300 3850
+Connection ~ 16950 3850
+Wire Wire Line
+	16950 3950 17300 3950
+Connection ~ 16950 3950
+Wire Wire Line
+	16950 4050 17300 4050
+Connection ~ 16950 4050
+Wire Wire Line
+	16950 4150 17300 4150
+Connection ~ 16950 4150
+Wire Wire Line
+	16950 4250 17300 4250
+Connection ~ 16950 4250
+Wire Wire Line
+	17900 3000 18050 3000
+Wire Wire Line
+	17900 3300 18050 3300
+Wire Wire Line
+	17900 3400 18050 3400
+Wire Wire Line
+	17900 3550 18050 3550
+Wire Wire Line
+	17900 3650 18050 3650
+Wire Wire Line
+	17900 3750 18050 3750
+Wire Wire Line
+	17900 3850 18050 3850
+Wire Wire Line
+	17900 3950 18050 3950
+Wire Wire Line
+	17900 4050 18050 4050
+Wire Wire Line
+	17900 4150 18050 4150
+Wire Wire Line
+	17900 4250 18050 4250
+Wire Wire Line
+	18450 2700 18550 2700
+Wire Wire Line
+	18550 2700 18550 2800
+Wire Wire Line
+	18450 2800 18550 2800
+Connection ~ 18550 2800
+Wire Wire Line
+	18550 2800 18550 2900
+Wire Wire Line
+	18450 2900 18550 2900
+Connection ~ 18550 2900
+Wire Wire Line
+	18550 2900 18550 3000
+Wire Wire Line
+	18450 3000 18550 3000
+Connection ~ 18550 3000
+Wire Wire Line
+	18550 3000 18550 3100
+Wire Wire Line
+	18450 3100 18550 3100
+Connection ~ 18550 3100
+Wire Wire Line
+	18550 3100 18550 3200
+Wire Wire Line
+	18450 3200 18550 3200
+Connection ~ 18550 3200
+Wire Wire Line
+	18550 3200 18550 3300
+Wire Wire Line
+	18450 3300 18550 3300
+Connection ~ 18550 3300
+Wire Wire Line
+	18550 3300 18550 3400
+Wire Wire Line
+	18450 3400 18550 3400
+Connection ~ 18550 3400
+Wire Wire Line
+	18550 3400 18550 3550
+Wire Wire Line
+	18450 3550 18550 3550
+Connection ~ 18550 3550
+Wire Wire Line
+	18550 3550 18550 3650
+Wire Wire Line
+	18450 3650 18550 3650
+Connection ~ 18550 3650
+Wire Wire Line
+	18550 3650 18550 3750
+Wire Wire Line
+	18450 3750 18550 3750
+Connection ~ 18550 3750
+Wire Wire Line
+	18550 3750 18550 3850
+Wire Wire Line
+	18450 3850 18550 3850
+Connection ~ 18550 3850
+Wire Wire Line
+	18550 3850 18550 3950
+Wire Wire Line
+	18450 3950 18550 3950
+Connection ~ 18550 3950
+Wire Wire Line
+	18550 3950 18550 4050
+Wire Wire Line
+	18450 4050 18550 4050
+Connection ~ 18550 4050
+Wire Wire Line
+	18550 4050 18550 4150
+Wire Wire Line
+	18450 4150 18550 4150
+Connection ~ 18550 4150
+Wire Wire Line
+	18550 4150 18550 4250
+Wire Wire Line
+	18450 4250 18550 4250
+Connection ~ 18550 4250
+Wire Wire Line
+	18550 4250 18550 4350
+Wire Wire Line
+	16150 4550 16150 4600
+Wire Wire Line
+	16150 2400 16550 2400
+Wire Wire Line
+	15550 3000 15450 3000
+Wire Wire Line
+	15550 2800 15250 2800
+Wire Wire Line
+	17900 3200 18050 3200
+Wire Wire Line
+	17900 3100 18050 3100
+Wire Wire Line
+	17900 2900 18050 2900
+Wire Wire Line
+	17900 2800 18050 2800
+Wire Wire Line
+	17900 2700 18050 2700
+Wire Wire Line
+	5350 5450 5550 5450
+Wire Wire Line
+	5350 5550 5550 5550
+Wire Wire Line
+	5350 5650 5550 5650
+Wire Wire Line
+	5350 5750 5550 5750
+Wire Wire Line
+	5350 5850 5550 5850
+Wire Wire Line
+	5350 5950 5550 5950
+Wire Wire Line
+	5350 6050 5550 6050
+Wire Wire Line
+	5350 6150 5550 6150
+Wire Wire Line
+	5350 6300 5550 6300
+Wire Wire Line
+	5350 6400 5550 6400
+Wire Wire Line
+	5350 6500 5550 6500
+Wire Wire Line
+	5350 6600 5550 6600
+Wire Wire Line
+	5350 6700 5550 6700
+Wire Wire Line
+	5350 6800 5550 6800
+Wire Wire Line
+	5350 6900 5550 6900
+Wire Wire Line
+	5350 7000 5550 7000
+Wire Wire Line
+	5550 5450 5900 5450
+Connection ~ 5550 5450
+Wire Wire Line
+	5550 5550 5900 5550
+Connection ~ 5550 5550
+Wire Wire Line
+	5550 5650 5900 5650
+Connection ~ 5550 5650
+Wire Wire Line
+	5550 5750 5900 5750
+Connection ~ 5550 5750
+Wire Wire Line
+	5550 5850 5900 5850
+Connection ~ 5550 5850
+Wire Wire Line
+	5550 5950 5900 5950
+Connection ~ 5550 5950
+Wire Wire Line
+	5550 6050 5900 6050
+Connection ~ 5550 6050
+Wire Wire Line
+	5550 6150 5900 6150
+Connection ~ 5550 6150
+Wire Wire Line
+	5550 6300 5900 6300
+Connection ~ 5550 6300
+Wire Wire Line
+	5550 6400 5900 6400
+Connection ~ 5550 6400
+Wire Wire Line
+	5550 6500 5900 6500
+Connection ~ 5550 6500
+Wire Wire Line
+	5550 6600 5900 6600
+Connection ~ 5550 6600
+Wire Wire Line
+	5550 6700 5900 6700
+Connection ~ 5550 6700
+Wire Wire Line
+	5550 6800 5900 6800
+Connection ~ 5550 6800
+Wire Wire Line
+	5550 6900 5900 6900
+Connection ~ 5550 6900
+Wire Wire Line
+	5550 7000 5900 7000
+Connection ~ 5550 7000
+Wire Wire Line
+	6500 5450 6650 5450
+Wire Wire Line
+	6500 5550 6650 5550
+Wire Wire Line
+	6500 5650 6650 5650
+Wire Wire Line
+	6500 5750 6650 5750
+Wire Wire Line
+	6500 5850 6650 5850
+Wire Wire Line
+	6500 5950 6650 5950
+Wire Wire Line
+	6500 6050 6650 6050
+Wire Wire Line
+	6500 6150 6650 6150
+Wire Wire Line
+	6500 6300 6650 6300
+Wire Wire Line
+	6500 6400 6650 6400
+Wire Wire Line
+	6500 6500 6650 6500
+Wire Wire Line
+	6500 6600 6650 6600
+Wire Wire Line
+	6500 6700 6650 6700
+Wire Wire Line
+	6500 6800 6650 6800
+Wire Wire Line
+	6500 6900 6650 6900
+Wire Wire Line
+	6500 7000 6650 7000
+Wire Wire Line
+	7050 5450 7150 5450
+Wire Wire Line
+	7150 5450 7150 5550
+Wire Wire Line
+	7050 5550 7150 5550
+Connection ~ 7150 5550
+Wire Wire Line
+	7150 5550 7150 5650
+Wire Wire Line
+	7050 5650 7150 5650
+Connection ~ 7150 5650
+Wire Wire Line
+	7150 5650 7150 5750
+Wire Wire Line
+	7050 5750 7150 5750
+Connection ~ 7150 5750
+Wire Wire Line
+	7150 5750 7150 5850
+Wire Wire Line
+	7050 5850 7150 5850
+Connection ~ 7150 5850
+Wire Wire Line
+	7150 5850 7150 5950
+Wire Wire Line
+	7050 5950 7150 5950
+Connection ~ 7150 5950
+Wire Wire Line
+	7150 5950 7150 6050
+Wire Wire Line
+	7050 6050 7150 6050
+Connection ~ 7150 6050
+Wire Wire Line
+	7150 6050 7150 6150
+Wire Wire Line
+	7050 6150 7150 6150
+Connection ~ 7150 6150
+Wire Wire Line
+	7150 6150 7150 6300
+Wire Wire Line
+	7050 6300 7150 6300
+Connection ~ 7150 6300
+Wire Wire Line
+	7150 6300 7150 6400
+Wire Wire Line
+	7050 6400 7150 6400
+Connection ~ 7150 6400
+Wire Wire Line
+	7150 6400 7150 6500
+Wire Wire Line
+	7050 6500 7150 6500
+Connection ~ 7150 6500
+Wire Wire Line
+	7150 6500 7150 6600
+Wire Wire Line
+	7050 6600 7150 6600
+Connection ~ 7150 6600
+Wire Wire Line
+	7150 6600 7150 6700
+Wire Wire Line
+	7050 6700 7150 6700
+Connection ~ 7150 6700
+Wire Wire Line
+	7150 6700 7150 6800
+Wire Wire Line
+	7050 6800 7150 6800
+Connection ~ 7150 6800
+Wire Wire Line
+	7150 6800 7150 6900
+Wire Wire Line
+	7050 6900 7150 6900
+Connection ~ 7150 6900
+Wire Wire Line
+	7150 6900 7150 7000
+Wire Wire Line
+	7050 7000 7150 7000
+Connection ~ 7150 7000
+Wire Wire Line
+	7150 7000 7150 7100
+Wire Wire Line
+	4750 7300 4750 7350
+Wire Wire Line
+	4750 5150 5150 5150
+Wire Wire Line
+	4150 5750 4050 5750
+Wire Wire Line
+	4150 5550 3850 5550
+Wire Wire Line
+	9150 5450 9350 5450
+Wire Wire Line
+	9150 5550 9350 5550
+Wire Wire Line
+	9150 5650 9350 5650
+Wire Wire Line
+	9150 5750 9350 5750
+Wire Wire Line
+	9150 5850 9350 5850
+Wire Wire Line
+	9150 5950 9350 5950
+Wire Wire Line
+	9150 6050 9350 6050
+Wire Wire Line
+	9150 6150 9350 6150
+Wire Wire Line
+	9150 6300 9350 6300
+Wire Wire Line
+	9150 6400 9350 6400
+Wire Wire Line
+	9150 6500 9350 6500
+Wire Wire Line
+	9150 6600 9350 6600
+Wire Wire Line
+	9150 6700 9350 6700
+Wire Wire Line
+	9150 6800 9350 6800
+Wire Wire Line
+	9150 6900 9350 6900
+Wire Wire Line
+	9150 7000 9350 7000
+Wire Wire Line
+	9350 5450 9700 5450
+Connection ~ 9350 5450
+Wire Wire Line
+	9350 5550 9700 5550
+Connection ~ 9350 5550
+Wire Wire Line
+	9350 5650 9700 5650
+Connection ~ 9350 5650
+Wire Wire Line
+	9350 5750 9700 5750
+Connection ~ 9350 5750
+Wire Wire Line
+	9350 5850 9700 5850
+Connection ~ 9350 5850
+Wire Wire Line
+	9350 5950 9700 5950
+Connection ~ 9350 5950
+Wire Wire Line
+	9350 6050 9700 6050
+Connection ~ 9350 6050
+Wire Wire Line
+	9350 6150 9700 6150
+Connection ~ 9350 6150
+Wire Wire Line
+	9350 6300 9700 6300
+Connection ~ 9350 6300
+Wire Wire Line
+	9350 6400 9700 6400
+Connection ~ 9350 6400
+Wire Wire Line
+	9350 6500 9700 6500
+Connection ~ 9350 6500
+Wire Wire Line
+	9350 6600 9700 6600
+Connection ~ 9350 6600
+Wire Wire Line
+	9350 6700 9700 6700
+Connection ~ 9350 6700
+Wire Wire Line
+	9350 6800 9700 6800
+Connection ~ 9350 6800
+Wire Wire Line
+	9350 6900 9700 6900
+Connection ~ 9350 6900
+Wire Wire Line
+	9350 7000 9700 7000
+Connection ~ 9350 7000
+Wire Wire Line
+	10300 5750 10450 5750
+Wire Wire Line
+	10300 6050 10450 6050
+Wire Wire Line
+	10300 6150 10450 6150
+Wire Wire Line
+	10300 6300 10450 6300
+Wire Wire Line
+	10300 6400 10450 6400
+Wire Wire Line
+	10300 6500 10450 6500
+Wire Wire Line
+	10300 6600 10450 6600
+Wire Wire Line
+	10300 6700 10450 6700
+Wire Wire Line
+	10300 6800 10450 6800
+Wire Wire Line
+	10300 6900 10450 6900
+Wire Wire Line
+	10300 7000 10450 7000
+Wire Wire Line
+	10850 5450 10950 5450
+Wire Wire Line
+	10950 5450 10950 5550
+Wire Wire Line
+	10850 5550 10950 5550
+Connection ~ 10950 5550
+Wire Wire Line
+	10950 5550 10950 5650
+Wire Wire Line
+	10850 5650 10950 5650
+Connection ~ 10950 5650
+Wire Wire Line
+	10950 5650 10950 5750
+Wire Wire Line
+	10850 5750 10950 5750
+Connection ~ 10950 5750
+Wire Wire Line
+	10950 5750 10950 5850
+Wire Wire Line
+	10850 5850 10950 5850
+Connection ~ 10950 5850
+Wire Wire Line
+	10950 5850 10950 5950
+Wire Wire Line
+	10850 5950 10950 5950
+Connection ~ 10950 5950
+Wire Wire Line
+	10950 5950 10950 6050
+Wire Wire Line
+	10850 6050 10950 6050
+Connection ~ 10950 6050
+Wire Wire Line
+	10950 6050 10950 6150
+Wire Wire Line
+	10850 6150 10950 6150
+Connection ~ 10950 6150
+Wire Wire Line
+	10950 6150 10950 6300
+Wire Wire Line
+	10850 6300 10950 6300
+Connection ~ 10950 6300
+Wire Wire Line
+	10950 6300 10950 6400
+Wire Wire Line
+	10850 6400 10950 6400
+Connection ~ 10950 6400
+Wire Wire Line
+	10950 6400 10950 6500
+Wire Wire Line
+	10850 6500 10950 6500
+Connection ~ 10950 6500
+Wire Wire Line
+	10950 6500 10950 6600
+Wire Wire Line
+	10850 6600 10950 6600
+Connection ~ 10950 6600
+Wire Wire Line
+	10950 6600 10950 6700
+Wire Wire Line
+	10850 6700 10950 6700
+Connection ~ 10950 6700
+Wire Wire Line
+	10950 6700 10950 6800
+Wire Wire Line
+	10850 6800 10950 6800
+Connection ~ 10950 6800
+Wire Wire Line
+	10950 6800 10950 6900
+Wire Wire Line
+	10850 6900 10950 6900
+Connection ~ 10950 6900
+Wire Wire Line
+	10950 6900 10950 7000
+Wire Wire Line
+	10850 7000 10950 7000
+Connection ~ 10950 7000
+Wire Wire Line
+	10950 7000 10950 7100
+Wire Wire Line
+	8550 7300 8550 7350
+Wire Wire Line
+	8550 5150 8950 5150
+Wire Wire Line
+	7950 5750 7850 5750
+Wire Wire Line
+	7950 5550 7650 5550
+Wire Wire Line
+	10300 5950 10450 5950
+Wire Wire Line
+	10300 5850 10450 5850
+Wire Wire Line
+	10300 5650 10450 5650
+Wire Wire Line
+	10300 5550 10450 5550
+Wire Wire Line
+	10300 5450 10450 5450
+Wire Wire Line
+	12950 5500 13150 5500
+Wire Wire Line
+	12950 5600 13150 5600
+Wire Wire Line
+	12950 5700 13150 5700
+Wire Wire Line
+	12950 5800 13150 5800
+Wire Wire Line
+	12950 5900 13150 5900
+Wire Wire Line
+	12950 6000 13150 6000
+Wire Wire Line
+	12950 6100 13150 6100
+Wire Wire Line
+	12950 6200 13150 6200
+Wire Wire Line
+	12950 6350 13150 6350
+Wire Wire Line
+	12950 6450 13150 6450
+Wire Wire Line
+	12950 6550 13150 6550
+Wire Wire Line
+	12950 6650 13150 6650
+Wire Wire Line
+	12950 6750 13150 6750
+Wire Wire Line
+	12950 6850 13150 6850
+Wire Wire Line
+	12950 6950 13150 6950
+Wire Wire Line
+	12950 7050 13150 7050
+Wire Wire Line
+	13150 5500 13500 5500
+Connection ~ 13150 5500
+Wire Wire Line
+	13150 5600 13500 5600
+Connection ~ 13150 5600
+Wire Wire Line
+	13150 5700 13500 5700
+Connection ~ 13150 5700
+Wire Wire Line
+	13150 5800 13500 5800
+Connection ~ 13150 5800
+Wire Wire Line
+	13150 5900 13500 5900
+Connection ~ 13150 5900
+Wire Wire Line
+	13150 6000 13500 6000
+Connection ~ 13150 6000
+Wire Wire Line
+	13150 6100 13500 6100
+Connection ~ 13150 6100
+Wire Wire Line
+	13150 6200 13500 6200
+Connection ~ 13150 6200
+Wire Wire Line
+	13150 6350 13500 6350
+Connection ~ 13150 6350
+Wire Wire Line
+	13150 6450 13500 6450
+Connection ~ 13150 6450
+Wire Wire Line
+	13150 6550 13500 6550
+Connection ~ 13150 6550
+Wire Wire Line
+	13150 6650 13500 6650
+Connection ~ 13150 6650
+Wire Wire Line
+	13150 6750 13500 6750
+Connection ~ 13150 6750
+Wire Wire Line
+	13150 6850 13500 6850
+Connection ~ 13150 6850
+Wire Wire Line
+	13150 6950 13500 6950
+Connection ~ 13150 6950
+Wire Wire Line
+	13150 7050 13500 7050
+Connection ~ 13150 7050
+Wire Wire Line
+	14100 5500 14250 5500
+Wire Wire Line
+	14100 5600 14250 5600
+Wire Wire Line
+	14100 5700 14250 5700
+Wire Wire Line
+	14100 5800 14250 5800
+Wire Wire Line
+	14100 5900 14250 5900
+Wire Wire Line
+	14100 6000 14250 6000
+Wire Wire Line
+	14100 6100 14250 6100
+Wire Wire Line
+	14100 6200 14250 6200
+Wire Wire Line
+	14100 6350 14250 6350
+Wire Wire Line
+	14100 6450 14250 6450
+Wire Wire Line
+	14100 6550 14250 6550
+Wire Wire Line
+	14100 6650 14250 6650
+Wire Wire Line
+	14100 6750 14250 6750
+Wire Wire Line
+	14100 6850 14250 6850
+Wire Wire Line
+	14100 6950 14250 6950
+Wire Wire Line
+	14100 7050 14250 7050
+Wire Wire Line
+	14650 5500 14750 5500
+Wire Wire Line
+	14750 5500 14750 5600
+Wire Wire Line
+	14650 5600 14750 5600
+Connection ~ 14750 5600
+Wire Wire Line
+	14750 5600 14750 5700
+Wire Wire Line
+	14650 5700 14750 5700
+Connection ~ 14750 5700
+Wire Wire Line
+	14750 5700 14750 5800
+Wire Wire Line
+	14650 5800 14750 5800
+Connection ~ 14750 5800
+Wire Wire Line
+	14750 5800 14750 5900
+Wire Wire Line
+	14650 5900 14750 5900
+Connection ~ 14750 5900
+Wire Wire Line
+	14750 5900 14750 6000
+Wire Wire Line
+	14650 6000 14750 6000
+Connection ~ 14750 6000
+Wire Wire Line
+	14750 6000 14750 6100
+Wire Wire Line
+	14650 6100 14750 6100
+Connection ~ 14750 6100
+Wire Wire Line
+	14750 6100 14750 6200
+Wire Wire Line
+	14650 6200 14750 6200
+Connection ~ 14750 6200
+Wire Wire Line
+	14750 6200 14750 6350
+Wire Wire Line
+	14650 6350 14750 6350
+Connection ~ 14750 6350
+Wire Wire Line
+	14750 6350 14750 6450
+Wire Wire Line
+	14650 6450 14750 6450
+Connection ~ 14750 6450
+Wire Wire Line
+	14750 6450 14750 6550
+Wire Wire Line
+	14650 6550 14750 6550
+Connection ~ 14750 6550
+Wire Wire Line
+	14750 6550 14750 6650
+Wire Wire Line
+	14650 6650 14750 6650
+Connection ~ 14750 6650
+Wire Wire Line
+	14750 6650 14750 6750
+Wire Wire Line
+	14650 6750 14750 6750
+Connection ~ 14750 6750
+Wire Wire Line
+	14750 6750 14750 6850
+Wire Wire Line
+	14650 6850 14750 6850
+Connection ~ 14750 6850
+Wire Wire Line
+	14750 6850 14750 6950
+Wire Wire Line
+	14650 6950 14750 6950
+Connection ~ 14750 6950
+Wire Wire Line
+	14750 6950 14750 7050
+Wire Wire Line
+	14650 7050 14750 7050
+Connection ~ 14750 7050
+Wire Wire Line
+	14750 7050 14750 7150
+Wire Wire Line
+	12350 7350 12350 7400
+Wire Wire Line
+	12350 5200 12750 5200
+Wire Wire Line
+	11750 5800 11650 5800
+Wire Wire Line
+	11750 5600 11450 5600
+Wire Wire Line
+	16750 5500 16950 5500
+Wire Wire Line
+	16750 5600 16950 5600
+Wire Wire Line
+	16750 5700 16950 5700
+Wire Wire Line
+	16750 5800 16950 5800
+Wire Wire Line
+	16750 5900 16950 5900
+Wire Wire Line
+	16750 6000 16950 6000
+Wire Wire Line
+	16750 6100 16950 6100
+Wire Wire Line
+	16750 6200 16950 6200
+Wire Wire Line
+	16750 6350 16950 6350
+Wire Wire Line
+	16750 6450 16950 6450
+Wire Wire Line
+	16750 6550 16950 6550
+Wire Wire Line
+	16750 6650 16950 6650
+Wire Wire Line
+	16750 6750 16950 6750
+Wire Wire Line
+	16750 6850 16950 6850
+Wire Wire Line
+	16750 6950 16950 6950
+Wire Wire Line
+	16750 7050 16950 7050
+Wire Wire Line
+	16950 5500 17300 5500
+Connection ~ 16950 5500
+Wire Wire Line
+	16950 5600 17300 5600
+Connection ~ 16950 5600
+Wire Wire Line
+	16950 5700 17300 5700
+Connection ~ 16950 5700
+Wire Wire Line
+	16950 5800 17300 5800
+Connection ~ 16950 5800
+Wire Wire Line
+	16950 5900 17300 5900
+Connection ~ 16950 5900
+Wire Wire Line
+	16950 6000 17300 6000
+Connection ~ 16950 6000
+Wire Wire Line
+	16950 6100 17300 6100
+Connection ~ 16950 6100
+Wire Wire Line
+	16950 6200 17300 6200
+Connection ~ 16950 6200
+Wire Wire Line
+	16950 6350 17300 6350
+Connection ~ 16950 6350
+Wire Wire Line
+	16950 6450 17300 6450
+Connection ~ 16950 6450
+Wire Wire Line
+	16950 6550 17300 6550
+Connection ~ 16950 6550
+Wire Wire Line
+	16950 6650 17300 6650
+Connection ~ 16950 6650
+Wire Wire Line
+	16950 6750 17300 6750
+Connection ~ 16950 6750
+Wire Wire Line
+	16950 6850 17300 6850
+Connection ~ 16950 6850
+Wire Wire Line
+	16950 6950 17300 6950
+Connection ~ 16950 6950
+Wire Wire Line
+	16950 7050 17300 7050
+Connection ~ 16950 7050
+Wire Wire Line
+	17900 5800 18050 5800
+Wire Wire Line
+	17900 6100 18050 6100
+Wire Wire Line
+	17900 6200 18050 6200
+Wire Wire Line
+	17900 6350 18050 6350
+Wire Wire Line
+	17900 6450 18050 6450
+Wire Wire Line
+	17900 6550 18050 6550
+Wire Wire Line
+	17900 6650 18050 6650
+Wire Wire Line
+	17900 6750 18050 6750
+Wire Wire Line
+	17900 6850 18050 6850
+Wire Wire Line
+	17900 6950 18050 6950
+Wire Wire Line
+	17900 7050 18050 7050
+Wire Wire Line
+	18450 5500 18550 5500
+Wire Wire Line
+	18550 5500 18550 5600
+Wire Wire Line
+	18450 5600 18550 5600
+Connection ~ 18550 5600
+Wire Wire Line
+	18550 5600 18550 5700
+Wire Wire Line
+	18450 5700 18550 5700
+Connection ~ 18550 5700
+Wire Wire Line
+	18550 5700 18550 5800
+Wire Wire Line
+	18450 5800 18550 5800
+Connection ~ 18550 5800
+Wire Wire Line
+	18550 5800 18550 5900
+Wire Wire Line
+	18450 5900 18550 5900
+Connection ~ 18550 5900
+Wire Wire Line
+	18550 5900 18550 6000
+Wire Wire Line
+	18450 6000 18550 6000
+Connection ~ 18550 6000
+Wire Wire Line
+	18550 6000 18550 6100
+Wire Wire Line
+	18450 6100 18550 6100
+Connection ~ 18550 6100
+Wire Wire Line
+	18550 6100 18550 6200
+Wire Wire Line
+	18450 6200 18550 6200
+Connection ~ 18550 6200
+Wire Wire Line
+	18550 6200 18550 6350
+Wire Wire Line
+	18450 6350 18550 6350
+Connection ~ 18550 6350
+Wire Wire Line
+	18550 6350 18550 6450
+Wire Wire Line
+	18450 6450 18550 6450
+Connection ~ 18550 6450
+Wire Wire Line
+	18550 6450 18550 6550
+Wire Wire Line
+	18450 6550 18550 6550
+Connection ~ 18550 6550
+Wire Wire Line
+	18550 6550 18550 6650
+Wire Wire Line
+	18450 6650 18550 6650
+Connection ~ 18550 6650
+Wire Wire Line
+	18550 6650 18550 6750
+Wire Wire Line
+	18450 6750 18550 6750
+Connection ~ 18550 6750
+Wire Wire Line
+	18550 6750 18550 6850
+Wire Wire Line
+	18450 6850 18550 6850
+Connection ~ 18550 6850
+Wire Wire Line
+	18550 6850 18550 6950
+Wire Wire Line
+	18450 6950 18550 6950
+Connection ~ 18550 6950
+Wire Wire Line
+	18550 6950 18550 7050
+Wire Wire Line
+	18450 7050 18550 7050
+Connection ~ 18550 7050
+Wire Wire Line
+	18550 7050 18550 7150
+Wire Wire Line
+	16150 7350 16150 7400
+Wire Wire Line
+	16150 5200 16550 5200
+Wire Wire Line
+	15550 5800 15450 5800
+Wire Wire Line
+	15550 5600 15250 5600
+Wire Wire Line
+	17900 6000 18050 6000
+Wire Wire Line
+	17900 5900 18050 5900
+Wire Wire Line
+	17900 5700 18050 5700
+Wire Wire Line
+	17900 5600 18050 5600
+Wire Wire Line
+	17900 5500 18050 5500
+Wire Wire Line
+	5350 8250 5550 8250
+Wire Wire Line
+	5350 8350 5550 8350
+Wire Wire Line
+	5350 8450 5550 8450
+Wire Wire Line
+	5350 8550 5550 8550
+Wire Wire Line
+	5350 8650 5550 8650
+Wire Wire Line
+	5350 8750 5550 8750
+Wire Wire Line
+	5350 8850 5550 8850
+Wire Wire Line
+	5350 8950 5550 8950
+Wire Wire Line
+	5350 9100 5550 9100
+Wire Wire Line
+	5350 9200 5550 9200
+Wire Wire Line
+	5350 9300 5550 9300
+Wire Wire Line
+	5350 9400 5550 9400
+Wire Wire Line
+	5350 9500 5550 9500
+Wire Wire Line
+	5350 9600 5550 9600
+Wire Wire Line
+	5350 9700 5550 9700
+Wire Wire Line
+	5350 9800 5550 9800
+Wire Wire Line
+	5550 8250 5900 8250
+Connection ~ 5550 8250
+Wire Wire Line
+	5550 8350 5900 8350
+Connection ~ 5550 8350
+Wire Wire Line
+	5550 8450 5900 8450
+Connection ~ 5550 8450
+Wire Wire Line
+	5550 8550 5900 8550
+Connection ~ 5550 8550
+Wire Wire Line
+	5550 8650 5900 8650
+Connection ~ 5550 8650
+Wire Wire Line
+	5550 8750 5900 8750
+Connection ~ 5550 8750
+Wire Wire Line
+	5550 8850 5900 8850
+Connection ~ 5550 8850
+Wire Wire Line
+	5550 8950 5900 8950
+Connection ~ 5550 8950
+Wire Wire Line
+	5550 9100 5900 9100
+Connection ~ 5550 9100
+Wire Wire Line
+	5550 9200 5900 9200
+Connection ~ 5550 9200
+Wire Wire Line
+	5550 9300 5900 9300
+Connection ~ 5550 9300
+Wire Wire Line
+	5550 9400 5900 9400
+Connection ~ 5550 9400
+Wire Wire Line
+	5550 9500 5900 9500
+Connection ~ 5550 9500
+Wire Wire Line
+	5550 9600 5900 9600
+Connection ~ 5550 9600
+Wire Wire Line
+	5550 9700 5900 9700
+Connection ~ 5550 9700
+Wire Wire Line
+	5550 9800 5900 9800
+Connection ~ 5550 9800
+Wire Wire Line
+	6500 8250 6650 8250
+Wire Wire Line
+	6500 8350 6650 8350
+Wire Wire Line
+	6500 8450 6650 8450
+Wire Wire Line
+	6500 8550 6650 8550
+Wire Wire Line
+	6500 8650 6650 8650
+Wire Wire Line
+	6500 8750 6650 8750
+Wire Wire Line
+	6500 8850 6650 8850
+Wire Wire Line
+	6500 8950 6650 8950
+Wire Wire Line
+	6500 9100 6650 9100
+Wire Wire Line
+	6500 9200 6650 9200
+Wire Wire Line
+	6500 9300 6650 9300
+Wire Wire Line
+	6500 9400 6650 9400
+Wire Wire Line
+	6500 9500 6650 9500
+Wire Wire Line
+	6500 9600 6650 9600
+Wire Wire Line
+	6500 9700 6650 9700
+Wire Wire Line
+	6500 9800 6650 9800
+Wire Wire Line
+	7050 8250 7150 8250
+Wire Wire Line
+	7150 8250 7150 8350
+Wire Wire Line
+	7050 8350 7150 8350
+Connection ~ 7150 8350
+Wire Wire Line
+	7150 8350 7150 8450
+Wire Wire Line
+	7050 8450 7150 8450
+Connection ~ 7150 8450
+Wire Wire Line
+	7150 8450 7150 8550
+Wire Wire Line
+	7050 8550 7150 8550
+Connection ~ 7150 8550
+Wire Wire Line
+	7150 8550 7150 8650
+Wire Wire Line
+	7050 8650 7150 8650
+Connection ~ 7150 8650
+Wire Wire Line
+	7150 8650 7150 8750
+Wire Wire Line
+	7050 8750 7150 8750
+Connection ~ 7150 8750
+Wire Wire Line
+	7150 8750 7150 8850
+Wire Wire Line
+	7050 8850 7150 8850
+Connection ~ 7150 8850
+Wire Wire Line
+	7150 8850 7150 8950
+Wire Wire Line
+	7050 8950 7150 8950
+Connection ~ 7150 8950
+Wire Wire Line
+	7150 8950 7150 9100
+Wire Wire Line
+	7050 9100 7150 9100
+Connection ~ 7150 9100
+Wire Wire Line
+	7150 9100 7150 9200
+Wire Wire Line
+	7050 9200 7150 9200
+Connection ~ 7150 9200
+Wire Wire Line
+	7150 9200 7150 9300
+Wire Wire Line
+	7050 9300 7150 9300
+Connection ~ 7150 9300
+Wire Wire Line
+	7150 9300 7150 9400
+Wire Wire Line
+	7050 9400 7150 9400
+Connection ~ 7150 9400
+Wire Wire Line
+	7150 9400 7150 9500
+Wire Wire Line
+	7050 9500 7150 9500
+Connection ~ 7150 9500
+Wire Wire Line
+	7150 9500 7150 9600
+Wire Wire Line
+	7050 9600 7150 9600
+Connection ~ 7150 9600
+Wire Wire Line
+	7150 9600 7150 9700
+Wire Wire Line
+	7050 9700 7150 9700
+Connection ~ 7150 9700
+Wire Wire Line
+	7150 9700 7150 9800
+Wire Wire Line
+	7050 9800 7150 9800
+Connection ~ 7150 9800
+Wire Wire Line
+	7150 9800 7150 9900
+Wire Wire Line
+	4750 10100 4750 10150
+Wire Wire Line
+	4750 7950 5150 7950
+Wire Wire Line
+	4150 8550 4050 8550
+Wire Wire Line
+	4150 8350 3850 8350
+Wire Wire Line
+	9150 8250 9350 8250
+Wire Wire Line
+	9150 8350 9350 8350
+Wire Wire Line
+	9150 8450 9350 8450
+Wire Wire Line
+	9150 8550 9350 8550
+Wire Wire Line
+	9150 8650 9350 8650
+Wire Wire Line
+	9150 8750 9350 8750
+Wire Wire Line
+	9150 8850 9350 8850
+Wire Wire Line
+	9150 8950 9350 8950
+Wire Wire Line
+	9150 9100 9350 9100
+Wire Wire Line
+	9150 9200 9350 9200
+Wire Wire Line
+	9150 9300 9350 9300
+Wire Wire Line
+	9150 9400 9350 9400
+Wire Wire Line
+	9150 9500 9350 9500
+Wire Wire Line
+	9150 9600 9350 9600
+Wire Wire Line
+	9150 9700 9350 9700
+Wire Wire Line
+	9150 9800 9350 9800
+Wire Wire Line
+	9350 8250 9700 8250
+Connection ~ 9350 8250
+Wire Wire Line
+	9350 8350 9700 8350
+Connection ~ 9350 8350
+Wire Wire Line
+	9350 8450 9700 8450
+Connection ~ 9350 8450
+Wire Wire Line
+	9350 8550 9700 8550
+Connection ~ 9350 8550
+Wire Wire Line
+	9350 8650 9700 8650
+Connection ~ 9350 8650
+Wire Wire Line
+	9350 8750 9700 8750
+Connection ~ 9350 8750
+Wire Wire Line
+	9350 8850 9700 8850
+Connection ~ 9350 8850
+Wire Wire Line
+	9350 8950 9700 8950
+Connection ~ 9350 8950
+Wire Wire Line
+	9350 9100 9700 9100
+Connection ~ 9350 9100
+Wire Wire Line
+	9350 9200 9700 9200
+Connection ~ 9350 9200
+Wire Wire Line
+	9350 9300 9700 9300
+Connection ~ 9350 9300
+Wire Wire Line
+	9350 9400 9700 9400
+Connection ~ 9350 9400
+Wire Wire Line
+	9350 9500 9700 9500
+Connection ~ 9350 9500
+Wire Wire Line
+	9350 9600 9700 9600
+Connection ~ 9350 9600
+Wire Wire Line
+	9350 9700 9700 9700
+Connection ~ 9350 9700
+Wire Wire Line
+	9350 9800 9700 9800
+Connection ~ 9350 9800
+Wire Wire Line
+	10300 8550 10450 8550
+Wire Wire Line
+	10300 8850 10450 8850
+Wire Wire Line
+	10300 8950 10450 8950
+Wire Wire Line
+	10300 9100 10450 9100
+Wire Wire Line
+	10300 9200 10450 9200
+Wire Wire Line
+	10300 9300 10450 9300
+Wire Wire Line
+	10300 9400 10450 9400
+Wire Wire Line
+	10300 9500 10450 9500
+Wire Wire Line
+	10300 9600 10450 9600
+Wire Wire Line
+	10300 9700 10450 9700
+Wire Wire Line
+	10300 9800 10450 9800
+Wire Wire Line
+	10850 8250 10950 8250
+Wire Wire Line
+	10950 8250 10950 8350
+Wire Wire Line
+	10850 8350 10950 8350
+Connection ~ 10950 8350
+Wire Wire Line
+	10950 8350 10950 8450
+Wire Wire Line
+	10850 8450 10950 8450
+Connection ~ 10950 8450
+Wire Wire Line
+	10950 8450 10950 8550
+Wire Wire Line
+	10850 8550 10950 8550
+Connection ~ 10950 8550
+Wire Wire Line
+	10950 8550 10950 8650
+Wire Wire Line
+	10850 8650 10950 8650
+Connection ~ 10950 8650
+Wire Wire Line
+	10950 8650 10950 8750
+Wire Wire Line
+	10850 8750 10950 8750
+Connection ~ 10950 8750
+Wire Wire Line
+	10950 8750 10950 8850
+Wire Wire Line
+	10850 8850 10950 8850
+Connection ~ 10950 8850
+Wire Wire Line
+	10950 8850 10950 8950
+Wire Wire Line
+	10850 8950 10950 8950
+Connection ~ 10950 8950
+Wire Wire Line
+	10950 8950 10950 9100
+Wire Wire Line
+	10850 9100 10950 9100
+Connection ~ 10950 9100
+Wire Wire Line
+	10950 9100 10950 9200
+Wire Wire Line
+	10850 9200 10950 9200
+Connection ~ 10950 9200
+Wire Wire Line
+	10950 9200 10950 9300
+Wire Wire Line
+	10850 9300 10950 9300
+Connection ~ 10950 9300
+Wire Wire Line
+	10950 9300 10950 9400
+Wire Wire Line
+	10850 9400 10950 9400
+Connection ~ 10950 9400
+Wire Wire Line
+	10950 9400 10950 9500
+Wire Wire Line
+	10850 9500 10950 9500
+Connection ~ 10950 9500
+Wire Wire Line
+	10950 9500 10950 9600
+Wire Wire Line
+	10850 9600 10950 9600
+Connection ~ 10950 9600
+Wire Wire Line
+	10950 9600 10950 9700
+Wire Wire Line
+	10850 9700 10950 9700
+Connection ~ 10950 9700
+Wire Wire Line
+	10950 9700 10950 9800
+Wire Wire Line
+	10850 9800 10950 9800
+Connection ~ 10950 9800
+Wire Wire Line
+	10950 9800 10950 9900
+Wire Wire Line
+	8550 10100 8550 10150
+Wire Wire Line
+	8550 7950 8950 7950
+Wire Wire Line
+	7950 8550 7850 8550
+Wire Wire Line
+	7950 8350 7650 8350
+Wire Wire Line
+	10300 8750 10450 8750
+Wire Wire Line
+	10300 8650 10450 8650
+Wire Wire Line
+	10300 8450 10450 8450
+Wire Wire Line
+	10300 8350 10450 8350
+Wire Wire Line
+	10300 8250 10450 8250
+Wire Wire Line
+	12950 8300 13150 8300
+Wire Wire Line
+	12950 8400 13150 8400
+Wire Wire Line
+	12950 8500 13150 8500
+Wire Wire Line
+	12950 8600 13150 8600
+Wire Wire Line
+	12950 8700 13150 8700
+Wire Wire Line
+	12950 8800 13150 8800
+Wire Wire Line
+	12950 8900 13150 8900
+Wire Wire Line
+	12950 9000 13150 9000
+Wire Wire Line
+	12950 9150 13150 9150
+Wire Wire Line
+	12950 9250 13150 9250
+Wire Wire Line
+	12950 9350 13150 9350
+Wire Wire Line
+	12950 9450 13150 9450
+Wire Wire Line
+	12950 9550 13150 9550
+Wire Wire Line
+	12950 9650 13150 9650
+Wire Wire Line
+	12950 9750 13150 9750
+Wire Wire Line
+	12950 9850 13150 9850
+Wire Wire Line
+	13150 8300 13500 8300
+Connection ~ 13150 8300
+Wire Wire Line
+	13150 8400 13500 8400
+Connection ~ 13150 8400
+Wire Wire Line
+	13150 8500 13500 8500
+Connection ~ 13150 8500
+Wire Wire Line
+	13150 8600 13500 8600
+Connection ~ 13150 8600
+Wire Wire Line
+	13150 8700 13500 8700
+Connection ~ 13150 8700
+Wire Wire Line
+	13150 8800 13500 8800
+Connection ~ 13150 8800
+Wire Wire Line
+	13150 8900 13500 8900
+Connection ~ 13150 8900
+Wire Wire Line
+	13150 9000 13500 9000
+Connection ~ 13150 9000
+Wire Wire Line
+	13150 9150 13500 9150
+Connection ~ 13150 9150
+Wire Wire Line
+	13150 9250 13500 9250
+Connection ~ 13150 9250
+Wire Wire Line
+	13150 9350 13500 9350
+Connection ~ 13150 9350
+Wire Wire Line
+	13150 9450 13500 9450
+Connection ~ 13150 9450
+Wire Wire Line
+	13150 9550 13500 9550
+Connection ~ 13150 9550
+Wire Wire Line
+	13150 9650 13500 9650
+Connection ~ 13150 9650
+Wire Wire Line
+	13150 9750 13500 9750
+Connection ~ 13150 9750
+Wire Wire Line
+	13150 9850 13500 9850
+Connection ~ 13150 9850
+Wire Wire Line
+	14100 8300 14250 8300
+Wire Wire Line
+	14100 8400 14250 8400
+Wire Wire Line
+	14100 8500 14250 8500
+Wire Wire Line
+	14100 8600 14250 8600
+Wire Wire Line
+	14100 8700 14250 8700
+Wire Wire Line
+	14100 8800 14250 8800
+Wire Wire Line
+	14100 8900 14250 8900
+Wire Wire Line
+	14100 9000 14250 9000
+Wire Wire Line
+	14100 9150 14250 9150
+Wire Wire Line
+	14100 9250 14250 9250
+Wire Wire Line
+	14100 9350 14250 9350
+Wire Wire Line
+	14100 9450 14250 9450
+Wire Wire Line
+	14100 9550 14250 9550
+Wire Wire Line
+	14100 9650 14250 9650
+Wire Wire Line
+	14100 9750 14250 9750
+Wire Wire Line
+	14100 9850 14250 9850
+Wire Wire Line
+	14650 8300 14750 8300
+Wire Wire Line
+	14750 8300 14750 8400
+Wire Wire Line
+	14650 8400 14750 8400
+Connection ~ 14750 8400
+Wire Wire Line
+	14750 8400 14750 8500
+Wire Wire Line
+	14650 8500 14750 8500
+Connection ~ 14750 8500
+Wire Wire Line
+	14750 8500 14750 8600
+Wire Wire Line
+	14650 8600 14750 8600
+Connection ~ 14750 8600
+Wire Wire Line
+	14750 8600 14750 8700
+Wire Wire Line
+	14650 8700 14750 8700
+Connection ~ 14750 8700
+Wire Wire Line
+	14750 8700 14750 8800
+Wire Wire Line
+	14650 8800 14750 8800
+Connection ~ 14750 8800
+Wire Wire Line
+	14750 8800 14750 8900
+Wire Wire Line
+	14650 8900 14750 8900
+Connection ~ 14750 8900
+Wire Wire Line
+	14750 8900 14750 9000
+Wire Wire Line
+	14650 9000 14750 9000
+Connection ~ 14750 9000
+Wire Wire Line
+	14750 9000 14750 9150
+Wire Wire Line
+	14650 9150 14750 9150
+Connection ~ 14750 9150
+Wire Wire Line
+	14750 9150 14750 9250
+Wire Wire Line
+	14650 9250 14750 9250
+Connection ~ 14750 9250
+Wire Wire Line
+	14750 9250 14750 9350
+Wire Wire Line
+	14650 9350 14750 9350
+Connection ~ 14750 9350
+Wire Wire Line
+	14750 9350 14750 9450
+Wire Wire Line
+	14650 9450 14750 9450
+Connection ~ 14750 9450
+Wire Wire Line
+	14750 9450 14750 9550
+Wire Wire Line
+	14650 9550 14750 9550
+Connection ~ 14750 9550
+Wire Wire Line
+	14750 9550 14750 9650
+Wire Wire Line
+	14650 9650 14750 9650
+Connection ~ 14750 9650
+Wire Wire Line
+	14750 9650 14750 9750
+Wire Wire Line
+	14650 9750 14750 9750
+Connection ~ 14750 9750
+Wire Wire Line
+	14750 9750 14750 9850
+Wire Wire Line
+	14650 9850 14750 9850
+Connection ~ 14750 9850
+Wire Wire Line
+	14750 9850 14750 9950
+Wire Wire Line
+	12350 10150 12350 10200
+Wire Wire Line
+	12350 8000 12750 8000
+Wire Wire Line
+	11750 8600 11650 8600
+Wire Wire Line
+	11750 8400 11450 8400
+Wire Wire Line
+	16750 8300 16950 8300
+Wire Wire Line
+	16750 8400 16950 8400
+Wire Wire Line
+	16750 8500 16950 8500
+Wire Wire Line
+	16750 8600 16950 8600
+Wire Wire Line
+	16750 8700 16950 8700
+Wire Wire Line
+	16750 8800 16950 8800
+Wire Wire Line
+	16750 8900 16950 8900
+Wire Wire Line
+	16750 9000 16950 9000
+Wire Wire Line
+	16750 9150 16950 9150
+Wire Wire Line
+	16750 9250 16950 9250
+Wire Wire Line
+	16750 9350 16950 9350
+Wire Wire Line
+	16750 9450 16950 9450
+Wire Wire Line
+	16750 9550 16950 9550
+Wire Wire Line
+	16750 9650 16950 9650
+Wire Wire Line
+	16750 9750 16950 9750
+Wire Wire Line
+	16750 9850 16950 9850
+Wire Wire Line
+	16950 8300 17300 8300
+Connection ~ 16950 8300
+Wire Wire Line
+	16950 8400 17300 8400
+Connection ~ 16950 8400
+Wire Wire Line
+	16950 8500 17300 8500
+Connection ~ 16950 8500
+Wire Wire Line
+	16950 8600 17300 8600
+Connection ~ 16950 8600
+Wire Wire Line
+	16950 8700 17300 8700
+Connection ~ 16950 8700
+Wire Wire Line
+	16950 8800 17300 8800
+Connection ~ 16950 8800
+Wire Wire Line
+	16950 8900 17300 8900
+Connection ~ 16950 8900
+Wire Wire Line
+	16950 9000 17300 9000
+Connection ~ 16950 9000
+Wire Wire Line
+	16950 9150 17300 9150
+Connection ~ 16950 9150
+Wire Wire Line
+	16950 9250 17300 9250
+Connection ~ 16950 9250
+Wire Wire Line
+	16950 9350 17300 9350
+Connection ~ 16950 9350
+Wire Wire Line
+	16950 9450 17300 9450
+Connection ~ 16950 9450
+Wire Wire Line
+	16950 9550 17300 9550
+Connection ~ 16950 9550
+Wire Wire Line
+	16950 9650 17300 9650
+Connection ~ 16950 9650
+Wire Wire Line
+	16950 9750 17300 9750
+Connection ~ 16950 9750
+Wire Wire Line
+	16950 9850 17300 9850
+Connection ~ 16950 9850
+Wire Wire Line
+	17900 8600 18050 8600
+Wire Wire Line
+	17900 8900 18050 8900
+Wire Wire Line
+	17900 9000 18050 9000
+Wire Wire Line
+	17900 9150 18050 9150
+Wire Wire Line
+	17900 9250 18050 9250
+Wire Wire Line
+	17900 9350 18050 9350
+Wire Wire Line
+	17900 9450 18050 9450
+Wire Wire Line
+	17900 9550 18050 9550
+Wire Wire Line
+	17900 9650 18050 9650
+Wire Wire Line
+	17900 9750 18050 9750
+Wire Wire Line
+	17900 9850 18050 9850
+Wire Wire Line
+	18450 8300 18550 8300
+Wire Wire Line
+	18550 8300 18550 8400
+Wire Wire Line
+	18450 8400 18550 8400
+Connection ~ 18550 8400
+Wire Wire Line
+	18550 8400 18550 8500
+Wire Wire Line
+	18450 8500 18550 8500
+Connection ~ 18550 8500
+Wire Wire Line
+	18550 8500 18550 8600
+Wire Wire Line
+	18450 8600 18550 8600
+Connection ~ 18550 8600
+Wire Wire Line
+	18550 8600 18550 8700
+Wire Wire Line
+	18450 8700 18550 8700
+Connection ~ 18550 8700
+Wire Wire Line
+	18550 8700 18550 8800
+Wire Wire Line
+	18450 8800 18550 8800
+Connection ~ 18550 8800
+Wire Wire Line
+	18550 8800 18550 8900
+Wire Wire Line
+	18450 8900 18550 8900
+Connection ~ 18550 8900
+Wire Wire Line
+	18550 8900 18550 9000
+Wire Wire Line
+	18450 9000 18550 9000
+Connection ~ 18550 9000
+Wire Wire Line
+	18550 9000 18550 9150
+Wire Wire Line
+	18450 9150 18550 9150
+Connection ~ 18550 9150
+Wire Wire Line
+	18550 9150 18550 9250
+Wire Wire Line
+	18450 9250 18550 9250
+Connection ~ 18550 9250
+Wire Wire Line
+	18550 9250 18550 9350
+Wire Wire Line
+	18450 9350 18550 9350
+Connection ~ 18550 9350
+Wire Wire Line
+	18550 9350 18550 9450
+Wire Wire Line
+	18450 9450 18550 9450
+Connection ~ 18550 9450
+Wire Wire Line
+	18550 9450 18550 9550
+Wire Wire Line
+	18450 9550 18550 9550
+Connection ~ 18550 9550
+Wire Wire Line
+	18550 9550 18550 9650
+Wire Wire Line
+	18450 9650 18550 9650
+Connection ~ 18550 9650
+Wire Wire Line
+	18550 9650 18550 9750
+Wire Wire Line
+	18450 9750 18550 9750
+Connection ~ 18550 9750
+Wire Wire Line
+	18550 9750 18550 9850
+Wire Wire Line
+	18450 9850 18550 9850
+Connection ~ 18550 9850
+Wire Wire Line
+	18550 9850 18550 9950
+Wire Wire Line
+	16150 10150 16150 10200
+Wire Wire Line
+	16150 8000 16550 8000
+Wire Wire Line
+	15550 8600 15450 8600
+Wire Wire Line
+	15550 8400 15250 8400
+Wire Wire Line
+	17900 8800 18050 8800
+Wire Wire Line
+	17900 8700 18050 8700
+Wire Wire Line
+	17900 8500 18050 8500
+Wire Wire Line
+	17900 8400 18050 8400
+Wire Wire Line
+	17900 8300 18050 8300
+Wire Wire Line
+	5350 11050 5550 11050
+Wire Wire Line
+	5350 11150 5550 11150
+Wire Wire Line
+	5350 11250 5550 11250
+Wire Wire Line
+	5350 11350 5550 11350
+Wire Wire Line
+	5350 11450 5550 11450
+Wire Wire Line
+	5350 11550 5550 11550
+Wire Wire Line
+	5350 11650 5550 11650
+Wire Wire Line
+	5350 11750 5550 11750
+Wire Wire Line
+	5350 11900 5550 11900
+Wire Wire Line
+	5350 12000 5550 12000
+Wire Wire Line
+	5350 12100 5550 12100
+Wire Wire Line
+	5350 12200 5550 12200
+Wire Wire Line
+	5350 12300 5550 12300
+Wire Wire Line
+	5350 12400 5550 12400
+Wire Wire Line
+	5350 12500 5550 12500
+Wire Wire Line
+	5350 12600 5550 12600
+Wire Wire Line
+	5550 11050 5900 11050
+Connection ~ 5550 11050
+Wire Wire Line
+	5550 11150 5900 11150
+Connection ~ 5550 11150
+Wire Wire Line
+	5550 11250 5900 11250
+Connection ~ 5550 11250
+Wire Wire Line
+	5550 11350 5900 11350
+Connection ~ 5550 11350
+Wire Wire Line
+	5550 11450 5900 11450
+Connection ~ 5550 11450
+Wire Wire Line
+	5550 11550 5900 11550
+Connection ~ 5550 11550
+Wire Wire Line
+	5550 11650 5900 11650
+Connection ~ 5550 11650
+Wire Wire Line
+	5550 11750 5900 11750
+Connection ~ 5550 11750
+Wire Wire Line
+	5550 11900 5900 11900
+Connection ~ 5550 11900
+Wire Wire Line
+	5550 12000 5900 12000
+Connection ~ 5550 12000
+Wire Wire Line
+	5550 12100 5900 12100
+Connection ~ 5550 12100
+Wire Wire Line
+	5550 12200 5900 12200
+Connection ~ 5550 12200
+Wire Wire Line
+	5550 12300 5900 12300
+Connection ~ 5550 12300
+Wire Wire Line
+	5550 12400 5900 12400
+Connection ~ 5550 12400
+Wire Wire Line
+	5550 12500 5900 12500
+Connection ~ 5550 12500
+Wire Wire Line
+	5550 12600 5900 12600
+Connection ~ 5550 12600
+Wire Wire Line
+	6500 11050 6650 11050
+Wire Wire Line
+	6500 11150 6650 11150
+Wire Wire Line
+	6500 11250 6650 11250
+Wire Wire Line
+	6500 11350 6650 11350
+Wire Wire Line
+	6500 11450 6650 11450
+Wire Wire Line
+	6500 11550 6650 11550
+Wire Wire Line
+	6500 11650 6650 11650
+Wire Wire Line
+	6500 11750 6650 11750
+Wire Wire Line
+	6500 11900 6650 11900
+Wire Wire Line
+	6500 12000 6650 12000
+Wire Wire Line
+	6500 12100 6650 12100
+Wire Wire Line
+	6500 12200 6650 12200
+Wire Wire Line
+	6500 12300 6650 12300
+Wire Wire Line
+	6500 12400 6650 12400
+Wire Wire Line
+	6500 12500 6650 12500
+Wire Wire Line
+	6500 12600 6650 12600
+Wire Wire Line
+	7050 11050 7150 11050
+Wire Wire Line
+	7150 11050 7150 11150
+Wire Wire Line
+	7050 11150 7150 11150
+Connection ~ 7150 11150
+Wire Wire Line
+	7150 11150 7150 11250
+Wire Wire Line
+	7050 11250 7150 11250
+Connection ~ 7150 11250
+Wire Wire Line
+	7150 11250 7150 11350
+Wire Wire Line
+	7050 11350 7150 11350
+Connection ~ 7150 11350
+Wire Wire Line
+	7150 11350 7150 11450
+Wire Wire Line
+	7050 11450 7150 11450
+Connection ~ 7150 11450
+Wire Wire Line
+	7150 11450 7150 11550
+Wire Wire Line
+	7050 11550 7150 11550
+Connection ~ 7150 11550
+Wire Wire Line
+	7150 11550 7150 11650
+Wire Wire Line
+	7050 11650 7150 11650
+Connection ~ 7150 11650
+Wire Wire Line
+	7150 11650 7150 11750
+Wire Wire Line
+	7050 11750 7150 11750
+Connection ~ 7150 11750
+Wire Wire Line
+	7150 11750 7150 11900
+Wire Wire Line
+	7050 11900 7150 11900
+Connection ~ 7150 11900
+Wire Wire Line
+	7150 11900 7150 12000
+Wire Wire Line
+	7050 12000 7150 12000
+Connection ~ 7150 12000
+Wire Wire Line
+	7150 12000 7150 12100
+Wire Wire Line
+	7050 12100 7150 12100
+Connection ~ 7150 12100
+Wire Wire Line
+	7150 12100 7150 12200
+Wire Wire Line
+	7050 12200 7150 12200
+Connection ~ 7150 12200
+Wire Wire Line
+	7150 12200 7150 12300
+Wire Wire Line
+	7050 12300 7150 12300
+Connection ~ 7150 12300
+Wire Wire Line
+	7150 12300 7150 12400
+Wire Wire Line
+	7050 12400 7150 12400
+Connection ~ 7150 12400
+Wire Wire Line
+	7150 12400 7150 12500
+Wire Wire Line
+	7050 12500 7150 12500
+Connection ~ 7150 12500
+Wire Wire Line
+	7150 12500 7150 12600
+Wire Wire Line
+	7050 12600 7150 12600
+Connection ~ 7150 12600
+Wire Wire Line
+	7150 12600 7150 12700
+Wire Wire Line
+	4750 12900 4750 12950
+Wire Wire Line
+	4750 10750 5150 10750
+Wire Wire Line
+	4150 11350 4050 11350
+Wire Wire Line
+	4150 11150 3850 11150
+Wire Wire Line
+	9150 11050 9350 11050
+Wire Wire Line
+	9150 11150 9350 11150
+Wire Wire Line
+	9150 11250 9350 11250
+Wire Wire Line
+	9150 11350 9350 11350
+Wire Wire Line
+	9150 11450 9350 11450
+Wire Wire Line
+	9150 11550 9350 11550
+Wire Wire Line
+	9150 11650 9350 11650
+Wire Wire Line
+	9150 11750 9350 11750
+Wire Wire Line
+	9150 11900 9350 11900
+Wire Wire Line
+	9150 12000 9350 12000
+Wire Wire Line
+	9150 12100 9350 12100
+Wire Wire Line
+	9150 12200 9350 12200
+Wire Wire Line
+	9150 12300 9350 12300
+Wire Wire Line
+	9150 12400 9350 12400
+Wire Wire Line
+	9150 12500 9350 12500
+Wire Wire Line
+	9150 12600 9350 12600
+Wire Wire Line
+	9350 11050 9700 11050
+Connection ~ 9350 11050
+Wire Wire Line
+	9350 11150 9700 11150
+Connection ~ 9350 11150
+Wire Wire Line
+	9350 11250 9700 11250
+Connection ~ 9350 11250
+Wire Wire Line
+	9350 11350 9700 11350
+Connection ~ 9350 11350
+Wire Wire Line
+	9350 11450 9700 11450
+Connection ~ 9350 11450
+Wire Wire Line
+	9350 11550 9700 11550
+Connection ~ 9350 11550
+Wire Wire Line
+	9350 11650 9700 11650
+Connection ~ 9350 11650
+Wire Wire Line
+	9350 11750 9700 11750
+Connection ~ 9350 11750
+Wire Wire Line
+	9350 11900 9700 11900
+Connection ~ 9350 11900
+Wire Wire Line
+	9350 12000 9700 12000
+Connection ~ 9350 12000
+Wire Wire Line
+	9350 12100 9700 12100
+Connection ~ 9350 12100
+Wire Wire Line
+	9350 12200 9700 12200
+Connection ~ 9350 12200
+Wire Wire Line
+	9350 12300 9700 12300
+Connection ~ 9350 12300
+Wire Wire Line
+	9350 12400 9700 12400
+Connection ~ 9350 12400
+Wire Wire Line
+	9350 12500 9700 12500
+Connection ~ 9350 12500
+Wire Wire Line
+	9350 12600 9700 12600
+Connection ~ 9350 12600
+Wire Wire Line
+	10300 11350 10450 11350
+Wire Wire Line
+	10300 11650 10450 11650
+Wire Wire Line
+	10300 11750 10450 11750
+Wire Wire Line
+	10300 11900 10450 11900
+Wire Wire Line
+	10300 12000 10450 12000
+Wire Wire Line
+	10300 12100 10450 12100
+Wire Wire Line
+	10300 12200 10450 12200
+Wire Wire Line
+	10300 12300 10450 12300
+Wire Wire Line
+	10300 12400 10450 12400
+Wire Wire Line
+	10300 12500 10450 12500
+Wire Wire Line
+	10300 12600 10450 12600
+Wire Wire Line
+	10850 11050 10950 11050
+Wire Wire Line
+	10950 11050 10950 11150
+Wire Wire Line
+	10850 11150 10950 11150
+Connection ~ 10950 11150
+Wire Wire Line
+	10950 11150 10950 11250
+Wire Wire Line
+	10850 11250 10950 11250
+Connection ~ 10950 11250
+Wire Wire Line
+	10950 11250 10950 11350
+Wire Wire Line
+	10850 11350 10950 11350
+Connection ~ 10950 11350
+Wire Wire Line
+	10950 11350 10950 11450
+Wire Wire Line
+	10850 11450 10950 11450
+Connection ~ 10950 11450
+Wire Wire Line
+	10950 11450 10950 11550
+Wire Wire Line
+	10850 11550 10950 11550
+Connection ~ 10950 11550
+Wire Wire Line
+	10950 11550 10950 11650
+Wire Wire Line
+	10850 11650 10950 11650
+Connection ~ 10950 11650
+Wire Wire Line
+	10950 11650 10950 11750
+Wire Wire Line
+	10850 11750 10950 11750
+Connection ~ 10950 11750
+Wire Wire Line
+	10950 11750 10950 11900
+Wire Wire Line
+	10850 11900 10950 11900
+Connection ~ 10950 11900
+Wire Wire Line
+	10950 11900 10950 12000
+Wire Wire Line
+	10850 12000 10950 12000
+Connection ~ 10950 12000
+Wire Wire Line
+	10950 12000 10950 12100
+Wire Wire Line
+	10850 12100 10950 12100
+Connection ~ 10950 12100
+Wire Wire Line
+	10950 12100 10950 12200
+Wire Wire Line
+	10850 12200 10950 12200
+Connection ~ 10950 12200
+Wire Wire Line
+	10950 12200 10950 12300
+Wire Wire Line
+	10850 12300 10950 12300
+Connection ~ 10950 12300
+Wire Wire Line
+	10950 12300 10950 12400
+Wire Wire Line
+	10850 12400 10950 12400
+Connection ~ 10950 12400
+Wire Wire Line
+	10950 12400 10950 12500
+Wire Wire Line
+	10850 12500 10950 12500
+Connection ~ 10950 12500
+Wire Wire Line
+	10950 12500 10950 12600
+Wire Wire Line
+	10850 12600 10950 12600
+Connection ~ 10950 12600
+Wire Wire Line
+	10950 12600 10950 12700
+Wire Wire Line
+	8550 12900 8550 12950
+Wire Wire Line
+	8550 10750 8950 10750
+Wire Wire Line
+	7950 11350 7850 11350
+Wire Wire Line
+	7950 11150 7650 11150
+Wire Wire Line
+	10300 11550 10450 11550
+Wire Wire Line
+	10300 11450 10450 11450
+Wire Wire Line
+	10300 11250 10450 11250
+Wire Wire Line
+	10300 11150 10450 11150
+Wire Wire Line
+	10300 11050 10450 11050
+Wire Wire Line
+	12950 11100 13150 11100
+Wire Wire Line
+	12950 11200 13150 11200
+Wire Wire Line
+	12950 11300 13150 11300
+Wire Wire Line
+	12950 11400 13150 11400
+Wire Wire Line
+	12950 11500 13150 11500
+Wire Wire Line
+	12950 11600 13150 11600
+Wire Wire Line
+	12950 11700 13150 11700
+Wire Wire Line
+	12950 11800 13150 11800
+Wire Wire Line
+	12950 11950 13150 11950
+Wire Wire Line
+	12950 12050 13150 12050
+Wire Wire Line
+	12950 12150 13150 12150
+Wire Wire Line
+	12950 12250 13150 12250
+Wire Wire Line
+	12950 12350 13150 12350
+Wire Wire Line
+	12950 12450 13150 12450
+Wire Wire Line
+	12950 12550 13150 12550
+Wire Wire Line
+	12950 12650 13150 12650
+Wire Wire Line
+	13150 11100 13500 11100
+Connection ~ 13150 11100
+Wire Wire Line
+	13150 11200 13500 11200
+Connection ~ 13150 11200
+Wire Wire Line
+	13150 11300 13500 11300
+Connection ~ 13150 11300
+Wire Wire Line
+	13150 11400 13500 11400
+Connection ~ 13150 11400
+Wire Wire Line
+	13150 11500 13500 11500
+Connection ~ 13150 11500
+Wire Wire Line
+	13150 11600 13500 11600
+Connection ~ 13150 11600
+Wire Wire Line
+	13150 11700 13500 11700
+Connection ~ 13150 11700
+Wire Wire Line
+	13150 11800 13500 11800
+Connection ~ 13150 11800
+Wire Wire Line
+	13150 11950 13500 11950
+Connection ~ 13150 11950
+Wire Wire Line
+	13150 12050 13500 12050
+Connection ~ 13150 12050
+Wire Wire Line
+	13150 12150 13500 12150
+Connection ~ 13150 12150
+Wire Wire Line
+	13150 12250 13500 12250
+Connection ~ 13150 12250
+Wire Wire Line
+	13150 12350 13500 12350
+Connection ~ 13150 12350
+Wire Wire Line
+	13150 12450 13500 12450
+Connection ~ 13150 12450
+Wire Wire Line
+	13150 12550 13500 12550
+Connection ~ 13150 12550
+Wire Wire Line
+	13150 12650 13500 12650
+Connection ~ 13150 12650
+Wire Wire Line
+	14100 11100 14250 11100
+Wire Wire Line
+	14100 11200 14250 11200
+Wire Wire Line
+	14100 11300 14250 11300
+Wire Wire Line
+	14100 11400 14250 11400
+Wire Wire Line
+	14100 11500 14250 11500
+Wire Wire Line
+	14100 11600 14250 11600
+Wire Wire Line
+	14100 11700 14250 11700
+Wire Wire Line
+	14100 11800 14250 11800
+Wire Wire Line
+	14100 11950 14250 11950
+Wire Wire Line
+	14100 12050 14250 12050
+Wire Wire Line
+	14100 12150 14250 12150
+Wire Wire Line
+	14100 12250 14250 12250
+Wire Wire Line
+	14100 12350 14250 12350
+Wire Wire Line
+	14100 12450 14250 12450
+Wire Wire Line
+	14100 12550 14250 12550
+Wire Wire Line
+	14100 12650 14250 12650
+Wire Wire Line
+	14650 11100 14750 11100
+Wire Wire Line
+	14750 11100 14750 11200
+Wire Wire Line
+	14650 11200 14750 11200
+Connection ~ 14750 11200
+Wire Wire Line
+	14750 11200 14750 11300
+Wire Wire Line
+	14650 11300 14750 11300
+Connection ~ 14750 11300
+Wire Wire Line
+	14750 11300 14750 11400
+Wire Wire Line
+	14650 11400 14750 11400
+Connection ~ 14750 11400
+Wire Wire Line
+	14750 11400 14750 11500
+Wire Wire Line
+	14650 11500 14750 11500
+Connection ~ 14750 11500
+Wire Wire Line
+	14750 11500 14750 11600
+Wire Wire Line
+	14650 11600 14750 11600
+Connection ~ 14750 11600
+Wire Wire Line
+	14750 11600 14750 11700
+Wire Wire Line
+	14650 11700 14750 11700
+Connection ~ 14750 11700
+Wire Wire Line
+	14750 11700 14750 11800
+Wire Wire Line
+	14650 11800 14750 11800
+Connection ~ 14750 11800
+Wire Wire Line
+	14750 11800 14750 11950
+Wire Wire Line
+	14650 11950 14750 11950
+Connection ~ 14750 11950
+Wire Wire Line
+	14750 11950 14750 12050
+Wire Wire Line
+	14650 12050 14750 12050
+Connection ~ 14750 12050
+Wire Wire Line
+	14750 12050 14750 12150
+Wire Wire Line
+	14650 12150 14750 12150
+Connection ~ 14750 12150
+Wire Wire Line
+	14750 12150 14750 12250
+Wire Wire Line
+	14650 12250 14750 12250
+Connection ~ 14750 12250
+Wire Wire Line
+	14750 12250 14750 12350
+Wire Wire Line
+	14650 12350 14750 12350
+Connection ~ 14750 12350
+Wire Wire Line
+	14750 12350 14750 12450
+Wire Wire Line
+	14650 12450 14750 12450
+Connection ~ 14750 12450
+Wire Wire Line
+	14750 12450 14750 12550
+Wire Wire Line
+	14650 12550 14750 12550
+Connection ~ 14750 12550
+Wire Wire Line
+	14750 12550 14750 12650
+Wire Wire Line
+	14650 12650 14750 12650
+Connection ~ 14750 12650
+Wire Wire Line
+	14750 12650 14750 12750
+Wire Wire Line
+	12350 12950 12350 13000
+Wire Wire Line
+	12350 10800 12750 10800
+Wire Wire Line
+	11750 11400 11650 11400
+Wire Wire Line
+	11750 11200 11450 11200
+Wire Wire Line
+	16750 11100 16950 11100
+Wire Wire Line
+	16750 11200 16950 11200
+Wire Wire Line
+	16750 11300 16950 11300
+Wire Wire Line
+	16750 11400 16950 11400
+Wire Wire Line
+	16750 11500 16950 11500
+Wire Wire Line
+	16750 11600 16950 11600
+Wire Wire Line
+	16750 11700 16950 11700
+Wire Wire Line
+	16750 11800 16950 11800
+Wire Wire Line
+	16750 11950 16950 11950
+Wire Wire Line
+	16750 12050 16950 12050
+Wire Wire Line
+	16750 12150 16950 12150
+Wire Wire Line
+	16750 12250 16950 12250
+Wire Wire Line
+	16750 12350 16950 12350
+Wire Wire Line
+	16750 12450 16950 12450
+Wire Wire Line
+	16750 12550 16950 12550
+Wire Wire Line
+	16750 12650 16950 12650
+Wire Wire Line
+	16950 11100 17300 11100
+Connection ~ 16950 11100
+Wire Wire Line
+	16950 11200 17300 11200
+Connection ~ 16950 11200
+Wire Wire Line
+	16950 11300 17300 11300
+Connection ~ 16950 11300
+Wire Wire Line
+	16950 11400 17300 11400
+Connection ~ 16950 11400
+Wire Wire Line
+	16950 11500 17300 11500
+Connection ~ 16950 11500
+Wire Wire Line
+	16950 11600 17300 11600
+Connection ~ 16950 11600
+Wire Wire Line
+	16950 11700 17300 11700
+Connection ~ 16950 11700
+Wire Wire Line
+	16950 11800 17300 11800
+Connection ~ 16950 11800
+Wire Wire Line
+	16950 11950 17300 11950
+Connection ~ 16950 11950
+Wire Wire Line
+	16950 12050 17300 12050
+Connection ~ 16950 12050
+Wire Wire Line
+	16950 12150 17300 12150
+Connection ~ 16950 12150
+Wire Wire Line
+	16950 12250 17300 12250
+Connection ~ 16950 12250
+Wire Wire Line
+	16950 12350 17300 12350
+Connection ~ 16950 12350
+Wire Wire Line
+	16950 12450 17300 12450
+Connection ~ 16950 12450
+Wire Wire Line
+	16950 12550 17300 12550
+Connection ~ 16950 12550
+Wire Wire Line
+	16950 12650 17300 12650
+Connection ~ 16950 12650
+Wire Wire Line
+	17900 11400 18050 11400
+Wire Wire Line
+	17900 11700 18050 11700
+Wire Wire Line
+	17900 11800 18050 11800
+Wire Wire Line
+	17900 11950 18050 11950
+Wire Wire Line
+	17900 12050 18050 12050
+Wire Wire Line
+	17900 12150 18050 12150
+Wire Wire Line
+	17900 12250 18050 12250
+Wire Wire Line
+	17900 12350 18050 12350
+Wire Wire Line
+	17900 12450 18050 12450
+Wire Wire Line
+	17900 12550 18050 12550
+Wire Wire Line
+	17900 12650 18050 12650
+Wire Wire Line
+	18450 11100 18550 11100
+Wire Wire Line
+	18550 11100 18550 11200
+Wire Wire Line
+	18450 11200 18550 11200
+Connection ~ 18550 11200
+Wire Wire Line
+	18550 11200 18550 11300
+Wire Wire Line
+	18450 11300 18550 11300
+Connection ~ 18550 11300
+Wire Wire Line
+	18550 11300 18550 11400
+Wire Wire Line
+	18450 11400 18550 11400
+Connection ~ 18550 11400
+Wire Wire Line
+	18550 11400 18550 11500
+Wire Wire Line
+	18450 11500 18550 11500
+Connection ~ 18550 11500
+Wire Wire Line
+	18550 11500 18550 11600
+Wire Wire Line
+	18450 11600 18550 11600
+Connection ~ 18550 11600
+Wire Wire Line
+	18550 11600 18550 11700
+Wire Wire Line
+	18450 11700 18550 11700
+Connection ~ 18550 11700
+Wire Wire Line
+	18550 11700 18550 11800
+Wire Wire Line
+	18450 11800 18550 11800
+Connection ~ 18550 11800
+Wire Wire Line
+	18550 11800 18550 11950
+Wire Wire Line
+	18450 11950 18550 11950
+Connection ~ 18550 11950
+Wire Wire Line
+	18550 11950 18550 12050
+Wire Wire Line
+	18450 12050 18550 12050
+Connection ~ 18550 12050
+Wire Wire Line
+	18550 12050 18550 12150
+Wire Wire Line
+	18450 12150 18550 12150
+Connection ~ 18550 12150
+Wire Wire Line
+	18550 12150 18550 12250
+Wire Wire Line
+	18450 12250 18550 12250
+Connection ~ 18550 12250
+Wire Wire Line
+	18550 12250 18550 12350
+Wire Wire Line
+	18450 12350 18550 12350
+Connection ~ 18550 12350
+Wire Wire Line
+	18550 12350 18550 12450
+Wire Wire Line
+	18450 12450 18550 12450
+Connection ~ 18550 12450
+Wire Wire Line
+	18550 12450 18550 12550
+Wire Wire Line
+	18450 12550 18550 12550
+Connection ~ 18550 12550
+Wire Wire Line
+	18550 12550 18550 12650
+Wire Wire Line
+	18450 12650 18550 12650
+Connection ~ 18550 12650
+Wire Wire Line
+	18550 12650 18550 12750
+Wire Wire Line
+	16150 12950 16150 13000
+Wire Wire Line
+	16150 10800 16550 10800
+Wire Wire Line
+	15550 11400 15450 11400
+Wire Wire Line
+	15550 11200 15250 11200
+Wire Wire Line
+	17900 11600 18050 11600
+Wire Wire Line
+	17900 11500 18050 11500
+Wire Wire Line
+	17900 11300 18050 11300
+Wire Wire Line
+	17900 11200 18050 11200
+Wire Wire Line
+	17900 11100 18050 11100
+Text HLabel 3100 1650 0    50   BiDi ~ 0
+SDA[0..7]
+Wire Wire Line
+	4150 3150 3950 3150
+Wire Wire Line
+	3950 3150 3950 3250
+Wire Wire Line
+	4150 3250 3950 3250
+Connection ~ 3950 3250
+Wire Wire Line
+	3950 3250 3950 3300
+$Comp
+L power:GND #PWR?
+U 1 1 64F681B1
+P 3950 6100
+AR Path="/64F681B1" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/64F681B1" Ref="#PWR0155"  Part="1" 
+F 0 "#PWR0155" H 3950 5850 50  0001 C CNN
+F 1 "GND" H 3955 5927 50  0000 C CNN
+F 2 "" H 3950 6100 50  0001 C CNN
+F 3 "" H 3950 6100 50  0001 C CNN
+	1    3950 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 5950 3950 5950
+Wire Wire Line
+	3950 5950 3950 6050
+Wire Wire Line
+	4150 6050 3950 6050
+Connection ~ 3950 6050
+Wire Wire Line
+	3950 6050 3950 6100
+$Comp
+L power:GND #PWR?
+U 1 1 6545B0BD
+P 3950 8900
+AR Path="/6545B0BD" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/6545B0BD" Ref="#PWR0156"  Part="1" 
+F 0 "#PWR0156" H 3950 8650 50  0001 C CNN
+F 1 "GND" H 3955 8727 50  0000 C CNN
+F 2 "" H 3950 8900 50  0001 C CNN
+F 3 "" H 3950 8900 50  0001 C CNN
+	1    3950 8900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 8750 3950 8750
+Wire Wire Line
+	3950 8750 3950 8850
+Wire Wire Line
+	4150 8850 3950 8850
+Connection ~ 3950 8850
+Wire Wire Line
+	3950 8850 3950 8900
+$Comp
+L power:GND #PWR?
+U 1 1 65956007
+P 3950 11700
+AR Path="/65956007" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/65956007" Ref="#PWR0157"  Part="1" 
+F 0 "#PWR0157" H 3950 11450 50  0001 C CNN
+F 1 "GND" H 3955 11527 50  0000 C CNN
+F 2 "" H 3950 11700 50  0001 C CNN
+F 3 "" H 3950 11700 50  0001 C CNN
+	1    3950 11700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 11550 3950 11550
+Wire Wire Line
+	3950 11550 3950 11650
+Wire Wire Line
+	4150 11650 3950 11650
+Connection ~ 3950 11650
+Wire Wire Line
+	3950 11650 3950 11700
+Wire Wire Line
+	7750 3300 7850 3300
+Wire Wire Line
+	7850 3300 7850 3150
+Wire Wire Line
+	7850 3150 7950 3150
+Wire Wire Line
+	7750 3350 7900 3350
+Wire Wire Line
+	7900 3350 7900 3250
+Wire Wire Line
+	7900 3250 7950 3250
+$Comp
+L power:+5V #PWR?
+U 1 1 665F48DA
+P 7750 6100
+AR Path="/665F48DA" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/665F48DA" Ref="#PWR0158"  Part="1" 
+F 0 "#PWR0158" H 7750 5950 50  0001 C CNN
+F 1 "+5V" H 7765 6273 50  0000 C CNN
+F 2 "" H 7750 6100 50  0001 C CNN
+F 3 "" H 7750 6100 50  0001 C CNN
+	1    7750 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 665F48E0
+P 7750 6150
+AR Path="/665F48E0" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/665F48E0" Ref="#PWR0159"  Part="1" 
+F 0 "#PWR0159" H 7750 5900 50  0001 C CNN
+F 1 "GND" H 7755 5977 50  0000 C CNN
+F 2 "" H 7750 6150 50  0001 C CNN
+F 3 "" H 7750 6150 50  0001 C CNN
+	1    7750 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 6100 7850 6100
+Wire Wire Line
+	7850 6100 7850 5950
+Wire Wire Line
+	7850 5950 7950 5950
+Wire Wire Line
+	7750 6150 7900 6150
+Wire Wire Line
+	7900 6150 7900 6050
+Wire Wire Line
+	7900 6050 7950 6050
+$Comp
+L power:+5V #PWR?
+U 1 1 66B10D46
+P 7750 8900
+AR Path="/66B10D46" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/66B10D46" Ref="#PWR0160"  Part="1" 
+F 0 "#PWR0160" H 7750 8750 50  0001 C CNN
+F 1 "+5V" H 7765 9073 50  0000 C CNN
+F 2 "" H 7750 8900 50  0001 C CNN
+F 3 "" H 7750 8900 50  0001 C CNN
+	1    7750 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 66B10D4C
+P 7750 8950
+AR Path="/66B10D4C" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/66B10D4C" Ref="#PWR0161"  Part="1" 
+F 0 "#PWR0161" H 7750 8700 50  0001 C CNN
+F 1 "GND" H 7755 8777 50  0000 C CNN
+F 2 "" H 7750 8950 50  0001 C CNN
+F 3 "" H 7750 8950 50  0001 C CNN
+	1    7750 8950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 8900 7850 8900
+Wire Wire Line
+	7850 8900 7850 8750
+Wire Wire Line
+	7850 8750 7950 8750
+Wire Wire Line
+	7750 8950 7900 8950
+Wire Wire Line
+	7900 8950 7900 8850
+Wire Wire Line
+	7900 8850 7950 8850
+$Comp
+L power:+5V #PWR?
+U 1 1 67039D9E
+P 7750 11700
+AR Path="/67039D9E" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/67039D9E" Ref="#PWR0162"  Part="1" 
+F 0 "#PWR0162" H 7750 11550 50  0001 C CNN
+F 1 "+5V" H 7765 11873 50  0000 C CNN
+F 2 "" H 7750 11700 50  0001 C CNN
+F 3 "" H 7750 11700 50  0001 C CNN
+	1    7750 11700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 67039DA4
+P 7750 11750
+AR Path="/67039DA4" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/67039DA4" Ref="#PWR0163"  Part="1" 
+F 0 "#PWR0163" H 7750 11500 50  0001 C CNN
+F 1 "GND" H 7755 11577 50  0000 C CNN
+F 2 "" H 7750 11750 50  0001 C CNN
+F 3 "" H 7750 11750 50  0001 C CNN
+	1    7750 11750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 11700 7850 11700
+Wire Wire Line
+	7850 11700 7850 11550
+Wire Wire Line
+	7850 11550 7950 11550
+Wire Wire Line
+	7750 11750 7900 11750
+Wire Wire Line
+	7900 11750 7900 11650
+Wire Wire Line
+	7900 11650 7950 11650
+Wire Wire Line
+	11550 3350 11700 3350
+Wire Wire Line
+	11700 3350 11700 3300
+Wire Wire Line
+	11700 3300 11750 3300
+Wire Wire Line
+	11550 3400 11650 3400
+Wire Wire Line
+	11650 3400 11650 3200
+Wire Wire Line
+	11650 3200 11750 3200
+$Comp
+L power:+5V #PWR?
+U 1 1 67FEC3F9
+P 11550 6150
+AR Path="/67FEC3F9" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/67FEC3F9" Ref="#PWR0164"  Part="1" 
+F 0 "#PWR0164" H 11550 6000 50  0001 C CNN
+F 1 "+5V" H 11565 6323 50  0000 C CNN
+F 2 "" H 11550 6150 50  0001 C CNN
+F 3 "" H 11550 6150 50  0001 C CNN
+	1    11550 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 67FEC3FF
+P 11550 6200
+AR Path="/67FEC3FF" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/67FEC3FF" Ref="#PWR0165"  Part="1" 
+F 0 "#PWR0165" H 11550 5950 50  0001 C CNN
+F 1 "GND" H 11555 6027 50  0000 C CNN
+F 2 "" H 11550 6200 50  0001 C CNN
+F 3 "" H 11550 6200 50  0001 C CNN
+	1    11550 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 6150 11700 6150
+Wire Wire Line
+	11700 6150 11700 6100
+Wire Wire Line
+	11700 6100 11750 6100
+Wire Wire Line
+	11550 6200 11650 6200
+Wire Wire Line
+	11650 6200 11650 6000
+Wire Wire Line
+	11650 6000 11750 6000
+$Comp
+L power:+5V #PWR?
+U 1 1 68537D27
+P 11550 8950
+AR Path="/68537D27" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/68537D27" Ref="#PWR0166"  Part="1" 
+F 0 "#PWR0166" H 11550 8800 50  0001 C CNN
+F 1 "+5V" H 11565 9123 50  0000 C CNN
+F 2 "" H 11550 8950 50  0001 C CNN
+F 3 "" H 11550 8950 50  0001 C CNN
+	1    11550 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 68537D2D
+P 11550 9000
+AR Path="/68537D2D" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/68537D2D" Ref="#PWR0167"  Part="1" 
+F 0 "#PWR0167" H 11550 8750 50  0001 C CNN
+F 1 "GND" H 11555 8827 50  0000 C CNN
+F 2 "" H 11550 9000 50  0001 C CNN
+F 3 "" H 11550 9000 50  0001 C CNN
+	1    11550 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 8950 11700 8950
+Wire Wire Line
+	11700 8950 11700 8900
+Wire Wire Line
+	11700 8900 11750 8900
+Wire Wire Line
+	11550 9000 11650 9000
+Wire Wire Line
+	11650 9000 11650 8800
+Wire Wire Line
+	11650 8800 11750 8800
+$Comp
+L power:+5V #PWR?
+U 1 1 68A8E5A3
+P 11550 11750
+AR Path="/68A8E5A3" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/68A8E5A3" Ref="#PWR0168"  Part="1" 
+F 0 "#PWR0168" H 11550 11600 50  0001 C CNN
+F 1 "+5V" H 11565 11923 50  0000 C CNN
+F 2 "" H 11550 11750 50  0001 C CNN
+F 3 "" H 11550 11750 50  0001 C CNN
+	1    11550 11750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 68A8E5A9
+P 11550 11800
+AR Path="/68A8E5A9" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/68A8E5A9" Ref="#PWR0169"  Part="1" 
+F 0 "#PWR0169" H 11550 11550 50  0001 C CNN
+F 1 "GND" H 11555 11627 50  0000 C CNN
+F 2 "" H 11550 11800 50  0001 C CNN
+F 3 "" H 11550 11800 50  0001 C CNN
+	1    11550 11800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 11750 11700 11750
+Wire Wire Line
+	11700 11750 11700 11700
+Wire Wire Line
+	11700 11700 11750 11700
+Wire Wire Line
+	11550 11800 11650 11800
+Wire Wire Line
+	11650 11800 11650 11600
+Wire Wire Line
+	11650 11600 11750 11600
+Wire Wire Line
+	15350 3350 15500 3350
+Wire Wire Line
+	15500 3350 15500 3300
+Wire Wire Line
+	15500 3200 15550 3200
+Wire Wire Line
+	15500 3300 15550 3300
+Connection ~ 15500 3300
+Wire Wire Line
+	15500 3300 15500 3200
+$Comp
+L power:+5V #PWR?
+U 1 1 698116BB
+P 15350 6150
+AR Path="/698116BB" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/698116BB" Ref="#PWR0170"  Part="1" 
+F 0 "#PWR0170" H 15350 6000 50  0001 C CNN
+F 1 "+5V" H 15365 6323 50  0000 C CNN
+F 2 "" H 15350 6150 50  0001 C CNN
+F 3 "" H 15350 6150 50  0001 C CNN
+	1    15350 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15350 6150 15500 6150
+Wire Wire Line
+	15500 6150 15500 6100
+Wire Wire Line
+	15500 6000 15550 6000
+Wire Wire Line
+	15500 6100 15550 6100
+Connection ~ 15500 6100
+Wire Wire Line
+	15500 6100 15500 6000
+$Comp
+L power:+5V #PWR?
+U 1 1 69D81254
+P 15350 8950
+AR Path="/69D81254" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/69D81254" Ref="#PWR0171"  Part="1" 
+F 0 "#PWR0171" H 15350 8800 50  0001 C CNN
+F 1 "+5V" H 15365 9123 50  0000 C CNN
+F 2 "" H 15350 8950 50  0001 C CNN
+F 3 "" H 15350 8950 50  0001 C CNN
+	1    15350 8950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15350 8950 15500 8950
+Wire Wire Line
+	15500 8950 15500 8900
+Wire Wire Line
+	15500 8800 15550 8800
+Wire Wire Line
+	15500 8900 15550 8900
+Connection ~ 15500 8900
+Wire Wire Line
+	15500 8900 15500 8800
+$Comp
+L power:+5V #PWR?
+U 1 1 6A2F82D9
+P 15350 11750
+AR Path="/6A2F82D9" Ref="#PWR?"  Part="1" 
+AR Path="/6133367E/6A2F82D9" Ref="#PWR0172"  Part="1" 
+F 0 "#PWR0172" H 15350 11600 50  0001 C CNN
+F 1 "+5V" H 15365 11923 50  0000 C CNN
+F 2 "" H 15350 11750 50  0001 C CNN
+F 3 "" H 15350 11750 50  0001 C CNN
+	1    15350 11750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15350 11750 15500 11750
+Wire Wire Line
+	15500 11750 15500 11700
+Wire Wire Line
+	15500 11600 15550 11600
+Wire Wire Line
+	15500 11700 15550 11700
+Connection ~ 15500 11700
+Wire Wire Line
+	15500 11700 15500 11600
+NoConn ~ 4150 2850
+NoConn ~ 4150 5650
+NoConn ~ 4150 8450
+NoConn ~ 4150 11250
+NoConn ~ 7950 2850
+NoConn ~ 7950 5650
+NoConn ~ 7950 8450
+NoConn ~ 7950 11250
+NoConn ~ 11750 11300
+NoConn ~ 11750 8500
+NoConn ~ 11750 5700
+NoConn ~ 11750 2900
+NoConn ~ 15550 2900
+NoConn ~ 15550 5700
+NoConn ~ 15550 8500
+NoConn ~ 15550 11300
+Wire Wire Line
+	3800 2650 4150 2650
+Wire Wire Line
+	7600 2650 7950 2650
+Wire Wire Line
+	11400 2700 11750 2700
+Wire Wire Line
+	15200 2700 15550 2700
+Wire Wire Line
+	15200 5500 15550 5500
+Wire Wire Line
+	11400 5500 11750 5500
+Wire Wire Line
+	7600 5450 7950 5450
+Wire Wire Line
+	3800 5450 4150 5450
+Wire Wire Line
+	3800 8250 4150 8250
+Wire Wire Line
+	7600 8250 7950 8250
+Wire Wire Line
+	11400 8300 11750 8300
+Wire Wire Line
+	15200 8300 15550 8300
+Wire Wire Line
+	15200 11100 15550 11100
+Wire Wire Line
+	11400 11100 11750 11100
+Wire Wire Line
+	7600 11050 7950 11050
+Wire Wire Line
+	3800 11050 4150 11050
+Wire Bus Line
+	3100 1550 3700 1550
+Wire Bus Line
+	15150 1650 11350 1650
+Connection ~ 3700 1550
+Wire Bus Line
+	3700 1550 7500 1550
+Connection ~ 3750 1650
+Wire Bus Line
+	3750 1650 3100 1650
+Connection ~ 7500 1550
+Wire Bus Line
+	7500 1550 11300 1550
+Connection ~ 7550 1650
+Wire Bus Line
+	7550 1650 3750 1650
+Connection ~ 11300 1550
+Wire Bus Line
+	11300 1550 15100 1550
+Wire Bus Line
+	15100 1550 15100 11000
+Wire Bus Line
+	15150 1650 15150 11100
+Wire Bus Line
+	3700 1550 3700 10950
+Wire Bus Line
+	3750 1650 3750 11050
+Wire Bus Line
+	7500 1550 7500 10950
+Wire Bus Line
+	7550 1650 7550 11050
+Wire Bus Line
+	11300 1550 11300 11000
+Wire Bus Line
+	11350 1650 11350 11100
+Connection ~ 11350 1650
+Wire Bus Line
+	11350 1650 7550 1650
+$EndSCHEMATC
