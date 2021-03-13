@@ -6647,4 +6647,8 @@ Wire Bus Line
 Connection ~ 11350 1650
 Wire Bus Line
 	11350 1650 7550 1650
+Text Label 3550 1550 2    50   ~ 0
+SCL[0..7]
+Text Label 3550 1650 2    50   ~ 0
+SDA[0..7]
 $EndSCHEMATC

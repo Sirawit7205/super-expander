@@ -8,4 +8,20 @@ $CMP AW9523B_original
 D 16-bit IO Expander
 $ENDCMP
 #
+$CMP FDS9435A
+D -5.3A Id, -30V Vds, P-Channel MOSFET, 50mOhm Ron, SO-8
+K P-Channel MOSFET
+F https://www.onsemi.com/pub/Collateral/FDS9435A-D.PDF
+$ENDCMP
+#
+$CMP IRF7410
+D -16A Id, -12V Vds, P-Channel HEXFET Power MOSFET, SO-8
+K P-Channel MOSFET
+F https://www.infineon.com/dgdl/irf7410pbf.pdf?fileId=5546d462533600a4015355fa75d71bb0
+$ENDCMP
+#
+$CMP TCA9517
+D I2C Buffer
+$ENDCMP
+#
 #End Doc Library
