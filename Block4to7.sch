@@ -4,10 +4,10 @@ EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 3 3
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Super Expander - Bank 4 to 7"
+Date "2021-03-14"
+Rev "1"
+Comp "Sleepy Pony Labs"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -6628,6 +6628,13 @@ Wire Bus Line
 Connection ~ 11300 1550
 Wire Bus Line
 	11300 1550 15100 1550
+Connection ~ 11350 1650
+Wire Bus Line
+	11350 1650 7550 1650
+Text Label 3550 1550 2    50   ~ 0
+SCL[0..7]
+Text Label 3550 1650 2    50   ~ 0
+SDA[0..7]
 Wire Bus Line
 	15100 1550 15100 11000
 Wire Bus Line
@@ -6644,11 +6651,4 @@ Wire Bus Line
 	11300 1550 11300 11000
 Wire Bus Line
 	11350 1650 11350 11100
-Connection ~ 11350 1650
-Wire Bus Line
-	11350 1650 7550 1650
-Text Label 3550 1550 2    50   ~ 0
-SCL[0..7]
-Text Label 3550 1650 2    50   ~ 0
-SDA[0..7]
 $EndSCHEMATC
